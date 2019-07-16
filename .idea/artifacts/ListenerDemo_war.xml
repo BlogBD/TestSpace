@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ListenerDemo:war">
+    <output-path>$PROJECT_DIR$/接口回调/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>ListenerDemo</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ListenerDemo.war">
+      <element id="artifact" artifact-name="ListenerDemo:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Listener:war">
+    <output-path>$PROJECT_DIR$/Listener/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Listener</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="Listener.war">
+      <element id="artifact" artifact-name="Listener:war exploded" />
+    </root>
+  </artifact>
+</component>

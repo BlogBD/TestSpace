@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="AutoLogin:war">
+    <output-path>$PROJECT_DIR$/AutoLogin/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>AutoLogin</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="AutoLogin.war">
+      <element id="artifact" artifact-name="AutoLogin:war exploded" />
+    </root>
+  </artifact>
+</component>
