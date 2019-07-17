@@ -20,11 +20,10 @@ public class UserDaoImpl implements UserDao {
         QueryRunner runner = new QueryRunner(JDBCUtil.getDataSource());
         try {
            has= runner.query("select * from t_user where username=? and password=?",
-                   new BeanHandler<UserBean>(UserBean.class), user.getUsername(),user.getPassword());
+                   new BeanHandler< UserBean >(UserBean.class), user.getUsername(),user.getPassword());
         } catch (SQLException e) {
             e.printStackTrace();
         }
-        JDBCUtil.close();
         return has;
     }
 }

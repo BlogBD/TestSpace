@@ -20,6 +20,8 @@
           <element id="library" level="project" name="Maven: commons-dbutils:commons-dbutils:1.6" />
           <element id="library" level="project" name="Maven: com.mchange:c3p0:0.9.5.4" />
           <element id="library" level="project" name="Maven: com.mchange:mchange-commons-java:0.2.15" />
+          <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
+          <element id="library" level="project" name="Maven: taglibs:standard:1.1.2" />
         </element>
       </element>
       <element id="directory" name="META-INF">
