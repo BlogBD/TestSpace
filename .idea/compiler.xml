@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Listener" />
+        <module name="Redis" />
         <module name="Filter" />
         <module name="AutoLogin" />
         <module name="ListenerDemo" />
@@ -17,6 +18,7 @@
       <module name="Filter" target="1.8" />
       <module name="Listener" target="1.8" />
       <module name="ListenerDemo" target="1.8" />
+      <module name="Redis" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

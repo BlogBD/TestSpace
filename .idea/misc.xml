@@ -4,6 +4,7 @@
     <file type="web" url="file://$PROJECT_DIR$/AutoLogin" />
     <file type="web" url="file://$PROJECT_DIR$/Filter" />
     <file type="web" url="file://$PROJECT_DIR$/Listener" />
+    <file type="web" url="file://$PROJECT_DIR$/Redis" />
     <file type="web" url="file://$PROJECT_DIR$/接口回调" />
   </component>
   <component name="JavaScriptSettings">
@@ -15,6 +16,7 @@
         <option value="$PROJECT_DIR$/Listener/pom.xml" />
         <option value="$PROJECT_DIR$/Filter/pom.xml" />
         <option value="$PROJECT_DIR$/AutoLogin/pom.xml" />
+        <option value="$PROJECT_DIR$/Redis/pom.xml" />
       </list>
     </option>
   </component>
