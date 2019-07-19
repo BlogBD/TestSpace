@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/.idea" />
     <file type="web" url="file://$PROJECT_DIR$/AutoLogin" />
     <file type="web" url="file://$PROJECT_DIR$/Filter" />
     <file type="web" url="file://$PROJECT_DIR$/Listener" />
-    <file type="web" url="file://$PROJECT_DIR$/Redis" />
+    <file type="web" url="file://$PROJECT_DIR$/MYSTORE" />
+    <file type="web" url="file://$PROJECT_DIR$/Store" />
     <file type="web" url="file://$PROJECT_DIR$/接口回调" />
   </component>
   <component name="JavaScriptSettings">
@@ -17,6 +19,8 @@
         <option value="$PROJECT_DIR$/Filter/pom.xml" />
         <option value="$PROJECT_DIR$/AutoLogin/pom.xml" />
         <option value="$PROJECT_DIR$/Redis/pom.xml" />
+        <option value="$PROJECT_DIR$/.idea/pom.xml" />
+        <option value="$PROJECT_DIR$/MYSTORE/pom.xml" />
       </list>
     </option>
   </component>

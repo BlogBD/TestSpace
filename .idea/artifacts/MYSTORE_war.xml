@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="MYSTORE:war">
+    <output-path>$PROJECT_DIR$/MYSTORE/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>MYSTORE</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="MYSTORE.war">
+      <element id="artifact" artifact-name="MYSTORE:war exploded" />
+    </root>
+  </artifact>
+</component>

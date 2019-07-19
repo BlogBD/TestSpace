@@ -7,12 +7,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f2bd86d-8c1c-4d7d-b6c6-19d99fab0dbf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Redis/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Redis/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Redis/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Store_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Store_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MYSTORE/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Redis_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Redis_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoLogin/src/main/java/com/logindemo/servlet/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/AutoLogin/src/main/java/com/logindemo/servlet/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoLogin/target/classes/com/logindemo/bean/UserBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/AutoLogin/target/classes/com/logindemo/bean/UserBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Filter/Filter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Filter/Filter.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Redis/Redis.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Redis/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Redis/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Redis/src/main/webapp/index.jsp" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/接口回调/target/" />
@@ -20,6 +28,9 @@
     <ignored path="$PROJECT_DIR$/Filter/target/" />
     <ignored path="$PROJECT_DIR$/AutoLogin/target/" />
     <ignored path="$PROJECT_DIR$/Redis/target/" />
+    <ignored path="$PROJECT_DIR$/Store/target/" />
+    <ignored path="$PROJECT_DIR$/.idea/target/" />
+    <ignored path="$PROJECT_DIR$/MYSTORE/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +46,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Redis/pom.xml">
+        <entry file="file://$PROJECT_DIR$/MYSTORE/pom.xml">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -50,6 +61,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <dirStrings>
+      <dir>H:\Web\TestDemoSpace\Store</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -104,6 +120,10 @@
         <option value="$PROJECT_DIR$/AutoLogin/src/main/java/com/logindemo/bean/UserBean.java" />
         <option value="$PROJECT_DIR$/AutoLogin/src/main/java/com/logindemo/servlet/LoginServlet.java" />
         <option value="$PROJECT_DIR$/Redis/pom.xml" />
+        <option value="$PROJECT_DIR$/Store/pom.xml" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/.idea/pom.xml" />
+        <option value="$PROJECT_DIR$/MYSTORE/pom.xml" />
       </list>
     </option>
   </component>
@@ -149,6 +169,22 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="TestDemoSpace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestDemoSpace" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestDemoSpace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestDemoSpace" type="462c0819:PsiDirectoryNode" />
+              <item name="MYSTORE" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -194,28 +230,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="TestDemoSpace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestDemoSpace" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TestDemoSpace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestDemoSpace" type="462c0819:PsiDirectoryNode" />
-              <item name="Redis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TestDemoSpace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestDemoSpace" type="462c0819:PsiDirectoryNode" />
-              <item name="Redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -228,7 +242,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
@@ -254,7 +268,54 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.redis">
+  <component name="RunManager" selected="Tomcat Server.FilterTomcat">
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="Store" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="Store" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FilterTomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.41" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/Filter/" />
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -475,82 +536,8 @@
         </option>
       </method>
     </configuration>
-    <configuration name="redis" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.41" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/Redis/" />
-      <option name="UPDATING_POLICY" value="restart-server" />
-      <deployment>
-        <artifact name="Redis:war">
-          <settings>
-            <option name="CONTEXT_PATH" value="/Redis" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_TestDemoSpace_4" />
-      </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="57450" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="Redis:war" />
-        </option>
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Tomcat Server.Tomcat" />
-      <item itemvalue="Tomcat Server.redis" />
       <item itemvalue="Tomcat Server.FilterTomcat" />
       <item itemvalue="Tomcat Server.Login" />
     </list>
@@ -574,7 +561,8 @@
       <workItem from="1563202520586" duration="1497000" />
       <workItem from="1563243121756" duration="17320000" />
       <workItem from="1563325787097" duration="14388000" />
-      <workItem from="1563413934918" duration="2830000" />
+      <workItem from="1563413934918" duration="3103000" />
+      <workItem from="1563527827887" duration="915000" />
     </task>
     <task id="LOCAL-00001" summary="学习事件监听器">
       <created>1563028528251</created>
@@ -639,7 +627,14 @@
       <option name="project" value="LOCAL" />
       <updated>1563367718495</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="update">
+      <created>1563458334965</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1563458334965</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -657,9 +652,9 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61611000" />
+    <option name="totallyTimeSpent" value="62799000" />
   </component>
-  <component name="TodoView" selected-index="2">
+  <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -686,7 +681,7 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.399137" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3289183" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32799146" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3289183" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.32799146" />
@@ -1067,7 +1062,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Redis/pom.xml">
+    <entry file="file://$PROJECT_DIR$/Store/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2178">
+          <caret line="66" column="7" selection-start-line="66" selection-start-column="7" selection-end-line="66" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/artifacts/Redis_war_exploded.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MYSTORE/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
@@ -1076,11 +1091,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>Filter:war</last-edited>
+          <last-edited>ListenerDemo:war exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
