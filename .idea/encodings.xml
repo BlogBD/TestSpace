@@ -3,6 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/.idea" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/AutoLogin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/BaseServlet" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Filter" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Listener" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MYSTORE" charset="UTF-8" />

@@ -3,6 +3,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/.idea" />
     <file type="web" url="file://$PROJECT_DIR$/AutoLogin" />
+    <file type="web" url="file://$PROJECT_DIR$/BaseServlet" />
     <file type="web" url="file://$PROJECT_DIR$/Filter" />
     <file type="web" url="file://$PROJECT_DIR$/Listener" />
     <file type="web" url="file://$PROJECT_DIR$/MYSTORE" />
@@ -21,6 +22,7 @@
         <option value="$PROJECT_DIR$/Redis/pom.xml" />
         <option value="$PROJECT_DIR$/.idea/pom.xml" />
         <option value="$PROJECT_DIR$/MYSTORE/pom.xml" />
+        <option value="$PROJECT_DIR$/BaseServlet/pom.xml" />
       </list>
     </option>
   </component>

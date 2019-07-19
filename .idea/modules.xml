@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AutoLogin/AutoLogin.iml" filepath="$PROJECT_DIR$/AutoLogin/AutoLogin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BaseServlet/BaseServlet.iml" filepath="$PROJECT_DIR$/BaseServlet/BaseServlet.iml" />
       <module fileurl="file://$PROJECT_DIR$/Filter/Filter.iml" filepath="$PROJECT_DIR$/Filter/Filter.iml" />
       <module fileurl="file://$PROJECT_DIR$/Listener/Listener.iml" filepath="$PROJECT_DIR$/Listener/Listener.iml" />
       <module fileurl="file://$PROJECT_DIR$/MYSTORE/MYSTORE.iml" filepath="$PROJECT_DIR$/MYSTORE/MYSTORE.iml" />
