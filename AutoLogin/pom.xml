@@ -29,7 +29,7 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>5.1.29</version>
+            <version>5.1.39</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/commons-dbutils/commons-dbutils 包装了jdbc-->
         <dependency>
