@@ -11,7 +11,6 @@ import java.util.Map;
 
 /**
  * 统一编码
- *
  * @author Administrator
  */
 @WebFilter(filterName = "EncodingFilter" ,urlPatterns = "/*")
