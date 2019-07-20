@@ -7,33 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f2bd86d-8c1c-4d7d-b6c6-19d99fab0dbf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_4_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_39.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_taglibs_standard_glassfish_unknown.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mail.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MYSTORE/src/main/java/cn/store/demo/utils/CookUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MYSTORE/src/main/java/cn/store/demo/utils/EncodingFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MYSTORE/src/main/java/cn/store/demo/utils/JDBCUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MYSTORE/src/main/java/cn/store/demo/utils/MD5Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MYSTORE/src/main/java/cn/store/demo/utils/MailUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MYSTORE/src/main/java/cn/store/demo/utils/MyBeanUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MYSTORE/src/main/java/cn/store/demo/utils/UUIDUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MYSTORE/src/main/java/cn/store/demo/utils/UploadUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MYSTORE/src/main/resources/c3p0-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/AutoLogin_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/AutoLogin_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/MYSTORE_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/MYSTORE_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoLogin/AutoLogin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AutoLogin/AutoLogin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoLogin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AutoLogin/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MYSTORE/MYSTORE.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MYSTORE/MYSTORE.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MYSTORE/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MYSTORE/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MYSTORE/src/main/java/cn/store/demo/utils/EncodingFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/MYSTORE/src/main/java/cn/store/demo/web/filter/EncodingFilter.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/接口回调/target/" />
@@ -89,11 +64,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MYSTORE/src/main/java/cn/store/demo/utils/JDBCUtils.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4662">
+              <caret line="136" column="5" lean-forward="true" selection-start-line="136" selection-start-column="5" selection-end-line="136" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MYSTORE/src/main/java/cn/store/demo/web/filter/EncodingFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="370">
-              <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+              <caret line="17" column="47" lean-forward="true" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Filter/src/main/java/com/filter/demo/filter/FilterDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="83">
+              <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Filter/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="333">
+              <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Filter/src/main/java/com/filter/demo/filter/servlet/Demo01Servlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="185">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -133,7 +147,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Listener/src/main/java/com/listener/demo/listener02/MyHttpSession02.java" />
         <option value="$PROJECT_DIR$/Listener/src/main/webapp/demo02/demo02.jsp" />
         <option value="$PROJECT_DIR$/Listener/src/main/java/com/listener/demo/dao/domain/Bean01.java" />
         <option value="$PROJECT_DIR$/Listener/src/main/webapp/demo03/index.jsp" />
@@ -184,6 +197,7 @@
         <option value="$PROJECT_DIR$/MYSTORE/src/main/resources/c3p0-config.xml" />
         <option value="$PROJECT_DIR$/MYSTORE/pom.xml" />
         <option value="$PROJECT_DIR$/MYSTORE/src/main/java/cn/store/demo/utils/JDBCUtils.java" />
+        <option value="$PROJECT_DIR$/MYSTORE/src/main/java/cn/store/demo/web/filter/EncodingFilter.java" />
       </list>
     </option>
   </component>
@@ -239,32 +253,6 @@
             <path>
               <item name="TestDemoSpace" type="b2602c69:ProjectViewProjectNode" />
               <item name="TestDemoSpace" type="462c0819:PsiDirectoryNode" />
-              <item name="AutoLogin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TestDemoSpace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestDemoSpace" type="462c0819:PsiDirectoryNode" />
-              <item name="AutoLogin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TestDemoSpace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestDemoSpace" type="462c0819:PsiDirectoryNode" />
-              <item name="AutoLogin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TestDemoSpace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestDemoSpace" type="462c0819:PsiDirectoryNode" />
-              <item name="AutoLogin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TestDemoSpace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestDemoSpace" type="462c0819:PsiDirectoryNode" />
               <item name="MYSTORE" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -306,6 +294,39 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestDemoSpace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestDemoSpace" type="462c0819:PsiDirectoryNode" />
+              <item name="MYSTORE" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestDemoSpace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestDemoSpace" type="462c0819:PsiDirectoryNode" />
+              <item name="MYSTORE" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestDemoSpace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestDemoSpace" type="462c0819:PsiDirectoryNode" />
+              <item name="MYSTORE" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
+              <item name="EncodingFilter.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="TestDemoSpace" type="b2602c69:ProjectViewProjectNode" />
@@ -395,7 +416,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/MYSTORE/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/MYSTORE/src/main/java/cn/store/demo/web/filter" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -406,11 +427,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\Web\TestDemoSpace\MYSTORE\src\main\java\cn\store\demo\web\filter" />
       <recent name="H:\Web\TestDemoSpace\MYSTORE\src\main\resources" />
       <recent name="H:\Web\TestDemoSpace\MYSTORE\src\main\java\cn\store\demo\utils" />
       <recent name="H:\Web\TestDemoSpace\MYSTORE\src\main\webapp\lib" />
       <recent name="H:\Web\TestDemoSpace\MYSTORE\src\main\java\cn\store\demo" />
-      <recent name="H:\Web\TestDemoSpace\BaseServlet\src\main\webapp\js" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.login.utli" />
@@ -826,7 +847,7 @@
       <workItem from="1563527827887" duration="4241000" />
       <workItem from="1563537654388" duration="4689000" />
       <workItem from="1563544136698" duration="3174000" />
-      <workItem from="1563625393563" duration="3315000" />
+      <workItem from="1563625393563" duration="3809000" />
     </task>
     <task id="LOCAL-00001" summary="学习事件监听器">
       <created>1563028528251</created>
@@ -912,7 +933,14 @@
       <option name="project" value="LOCAL" />
       <updated>1563548698789</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="update">
+      <created>1563628905744</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1563628905744</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -928,9 +956,12 @@
     <history-entry file="UserBean_test - 2019.07.17 at 16h 24m 57s.xml">
       <configuration name="UserBean.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="JDBCUtils - 2019.07.20 at 21h 19m 05s.xml">
+      <configuration name="JDBCUtils" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77303000" />
+    <option name="totallyTimeSpent" value="77797000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1032,43 +1063,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Filter/src/main/java/com/filter/demo/filter/servlet/Demo01Servlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Filter/src/main/java/com/filter/demo/filter/FilterDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Filter/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AutoLogin/src/main/webapp/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AutoLogin/src/main/resources/c3p0-config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
@@ -1335,13 +1329,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MYSTORE/src/main/java/cn/store/demo/utils/EncodingFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3552">
-          <caret line="108" column="52" selection-start-line="108" selection-start-column="52" selection-end-line="108" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MYSTORE/src/main/java/cn/store/demo/utils/MailUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
@@ -1389,8 +1376,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MYSTORE/src/main/java/cn/store/demo/utils/JDBCUtils.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4662">
+          <caret line="136" column="5" lean-forward="true" selection-start-line="136" selection-start-column="5" selection-end-line="136" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MYSTORE/src/main/java/cn/store/demo/utils/EncodingFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3197">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Filter/src/main/java/com/filter/demo/filter/servlet/Demo01Servlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Filter/src/main/java/com/filter/demo/filter/FilterDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Filter/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MYSTORE/src/main/java/cn/store/demo/web/filter/EncodingFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="370">
-          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+          <caret line="17" column="47" lean-forward="true" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
         </state>
       </provider>
     </entry>
