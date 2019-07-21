@@ -2,7 +2,7 @@
 <c3p0-config>
     <default-config>
         <property name="driverClass">com.mysql.jdbc.Driver</property>
-        <property name="jdbcUrl">jdbc:mysql://al/store</property>
+        <property name="jdbcUrl">jdbc:mysql://al/store?useSSL=true</property>
         <property name="user">store</property>
         <property name="password">123456</property>
 
