@@ -55,4 +55,17 @@ public class UserDaoImpl implements UserDao {
         Object[] params={user.getUsername(),user.getPassword(),user.getName(),user.getEmail(),user.getTelephone(),user.getBirthday(),user.getSex(),user.getState(),user.getCode(),user.getUid()};
         new QueryRunner(JDBCUtils.getDataSource()).update(sql,params);
     }
+
+    /**
+     * 实现用户登陆，并返回用户信息
+     * @param username
+     * @param password
+     * @return
+     */
+    @Override
+    public User userLogin(String username, String password) throws SQLException {
+        String sql="select * from user where username = ? and password =?";
+        User user = new QueryRunner(JDBCUtils.getDataSource()).query(sql, new BeanHandler<>(User.class), username, password);
+        return user;
+    }
 }

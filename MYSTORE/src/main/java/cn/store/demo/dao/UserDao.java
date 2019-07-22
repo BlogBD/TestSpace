@@ -24,6 +24,14 @@ public interface UserDao {
      * @param user
      */
     void updateUser(User user) throws SQLException;
+
+    /**
+     * 通过账号和密码登陆
+     * @param username
+     * @param password
+     * @return
+     */
+    User userLogin(String username,String password) throws SQLException;
 }
 
 

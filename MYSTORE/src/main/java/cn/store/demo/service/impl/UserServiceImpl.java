@@ -37,4 +37,16 @@ public class UserServiceImpl implements UserService {
     public void updateUser(User user) throws SQLException {
         new UserDaoImpl().updateUser(user);
     }
+
+    /**
+     * 实现登陆业务
+     * @param user
+     * @return
+     */
+    @Override
+    public User userLogin(User user) throws SQLException {
+        UserDao userDao = new UserDaoImpl();
+        User user1 = userDao.userLogin(user.getUsername(), user.getPassword());
+        return user1;
+    }
 }

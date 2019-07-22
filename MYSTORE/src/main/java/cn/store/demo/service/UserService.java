@@ -24,4 +24,10 @@ public interface UserService {
      * @throws SQLException
      */
     void updateUser(User user) throws SQLException;
+
+    /**
+     * 登陆业务规范
+     * @param user
+     */
+    User userLogin(User user) throws SQLException;
 }

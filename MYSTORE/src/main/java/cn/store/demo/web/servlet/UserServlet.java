@@ -13,6 +13,7 @@ import org.apache.commons.beanutils.converters.DateConverter;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -102,5 +103,63 @@ public class UserServlet extends BaseServlet {
    */
   public String loginUI(HttpServletRequest request,HttpServletResponse response){
     return "/jsp/login.jsp";
+  }
+
+  /**
+   * 实现登陆验证
+   * @param request
+   * @param response
+   * @return
+   */
+  public String userLogin(HttpServletRequest request,HttpServletResponse response){
+    try {
+      //获取到客服端发来的登陆请求
+      User user = new User();
+      MyBeanUtils.populate(user,request.getParameterMap());
+      //校验信息
+      UserService userService = new UserServiceImpl();
+      User user1 = userService.userLogin(user);
+      if (user1!=null){
+        //有返回说明查询到了，把用户信息存入session中
+        request.getSession().setAttribute("loginUser",user1);
+        //获取到用户是否选择了自动登陆
+        String autoLogin = request.getParameter("autoLogin");
+        if ("yes".equals(autoLogin)){
+          //用户选择了自动登陆
+          Cookie cookieAutoLogin = new Cookie("atuoLogin", user1.getUsername() + "#" + user1.getPassword());
+          cookieAutoLogin.setPath("/MYSTORE");
+          cookieAutoLogin.setMaxAge(60*60*24);
+          response.addCookie(cookieAutoLogin);
+        }
+
+        //用户是否记住登陆信息
+        String remUser = request.getParameter("remUser");
+        if ("yes".equals(remUser)){
+          //用户选择了记住用户
+          Cookie cookieremUser = new Cookie("remUser", user1.getUsername());
+          cookieremUser.setPath("/MYSTORE");
+          cookieremUser.setMaxAge(60*60*24);
+          response.addCookie(cookieremUser);
+        }
+        //判断用户是否激活
+        if (user1.getState()==0){
+          request.setAttribute("msg","用户未激活");
+          return "/jsp/login.jsp";
+        }
+        //登陆成功后返回首页
+        response.sendRedirect(request.getContextPath()+"/index.jsp");
+        return null;
+      }
+
+
+        // 登陆失败
+        request.setAttribute("msg", "用户或密码不匹配");
+        return "/jsp/login.jsp";
+    } catch (SQLException e) {
+      e.printStackTrace();
+    } catch (IOException e) {
+      e.printStackTrace();
+    }
+    return null;
   }
 }
