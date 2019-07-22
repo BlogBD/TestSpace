@@ -60,7 +60,18 @@ public class MailUtils {
 		// 3.创建 Transport用于将邮件发送
 		Transport.send(message);
 	}
-	/*public static void main(String[] args) throws AddressException, MessagingException, IOException {
-		MailUtils.sendMail("787512757@qq.com", "abcdefg");
+/*	public static void main(String[] args) throws AddressException, MessagingException, IOException {
+		for (int i= 0;i<20;i++){
+			//MailUtils.sendMail("787512757@qq.com", "abcdefg");
+			new Thread(()->{
+				try {
+					MailUtils.sendMail("787512757@qq.com", "abcdefg");
+				} catch (MessagingException e) {
+					e.printStackTrace();
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
+			}).start();
+		}
 	}*/
 }

@@ -95,4 +95,12 @@ public class UserServlet extends BaseServlet {
       return "/jsp/info.jsp";
     }
   }
+
+  /**
+   * 登陆请求,转发到login.jsp
+   * @return
+   */
+  public String loginUI(HttpServletRequest request,HttpServletResponse response){
+    return "/jsp/login.jsp";
+  }
 }

@@ -7,15 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f2bd86d-8c1c-4d7d-b6c6-19d99fab0dbf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/MYSTORE/src/main/resources/mail.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MYSTORE/src/main/java/cn/store/demo/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/MYSTORE/src/main/java/cn/store/demo/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MYSTORE/src/main/java/cn/store/demo/dao/impl/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/MYSTORE/src/main/java/cn/store/demo/dao/impl/UserDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MYSTORE/src/main/java/cn/store/demo/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/MYSTORE/src/main/java/cn/store/demo/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MYSTORE/src/main/java/cn/store/demo/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/MYSTORE/src/main/java/cn/store/demo/service/impl/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MYSTORE/src/main/java/cn/store/demo/utils/MailUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/MYSTORE/src/main/java/cn/store/demo/utils/MailUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MYSTORE/src/main/java/cn/store/demo/web/servlet/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/MYSTORE/src/main/java/cn/store/demo/web/servlet/UserServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MYSTORE/src/main/webapp/jsp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/MYSTORE/src/main/webapp/jsp/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MYSTORE/src/main/webapp/jsp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/MYSTORE/src/main/webapp/jsp/index.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/接口回调/target/" />
@@ -74,13 +69,30 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MYSTORE/src/main/java/cn/store/demo/web/servlet/UserServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="87" column="20" selection-start-line="87" selection-start-column="20" selection-end-line="87" selection-end-column="20" />
+            <state relative-caret-position="614">
+              <caret line="105" column="1" lean-forward="true" selection-start-line="105" selection-start-column="1" selection-end-line="105" selection-end-column="1" />
               <folding>
                 <element signature="docComment;method#registUI#0;class#UserServlet#0" />
                 <element signature="e#1003#1004#0" expanded="true" />
                 <element signature="e#1039#1040#0" expanded="true" />
+                <element signature="docComment;method#userRegister#0;class#UserServlet#0" />
                 <element signature="method#userRegister#0;class#UserServlet#0" />
+                <element signature="docComment;method#active#0;class#UserServlet#0" />
+                <element signature="method#active#0;class#UserServlet#0" />
+                <element signature="e#2855#2856#0" expanded="true" />
+                <element signature="e#2888#2889#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MYSTORE/src/main/java/cn/store/demo/web/base/BaseServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-236">
+              <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -89,11 +101,34 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MYSTORE/src/main/webapp/jsp/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+            <state relative-caret-position="185">
+              <caret line="144" column="38" lean-forward="true" selection-start-line="144" selection-start-column="38" selection-end-line="144" selection-end-column="38" />
               <folding>
+                <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MYSTORE/src/main/java/cn/store/demo/utils/MailUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="605">
+              <caret line="73" column="23" lean-forward="true" selection-start-line="73" selection-start-column="23" selection-end-line="73" selection-end-column="23" />
+              <folding>
+                <element signature="e#1022#1242#0" expanded="true" />
+                <element signature="e#1241#1242#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MYSTORE/src/main/webapp/jsp/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="29" column="94" lean-forward="true" selection-start-line="29" selection-start-column="94" selection-end-line="29" selection-end-column="94" />
             </state>
           </provider>
         </entry>
@@ -121,28 +156,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MYSTORE/src/main/webapp/jsp/info.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="80" column="9" selection-start-line="80" selection-start-column="9" selection-end-line="80" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MYSTORE/src/main/java/cn/store/demo/utils/MailUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="54" column="80" selection-start-line="54" selection-start-column="76" selection-end-line="54" selection-end-column="80" />
-              <folding>
-                <element signature="e#883#1061#0" expanded="true" />
-                <element signature="e#1060#1061#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MYSTORE/src/main/java/cn/store/demo/service/impl/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="203">
@@ -163,10 +176,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MYSTORE/src/main/java/cn/store/demo/dao/impl/UserDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="814">
+            <state relative-caret-position="304">
               <caret line="49" column="27" lean-forward="true" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -248,20 +261,20 @@
         <option value="$PROJECT_DIR$/MYSTORE/src/main/webapp/jsp/product_info.jsp" />
         <option value="$PROJECT_DIR$/MYSTORE/src/main/webapp/jsp/product_list.jsp" />
         <option value="$PROJECT_DIR$/MYSTORE/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/MYSTORE/src/main/webapp/jsp/index.jsp" />
         <option value="$PROJECT_DIR$/MYSTORE/src/main/java/cn/store/demo/web/base/BaseServlet.java" />
         <option value="$PROJECT_DIR$/MYSTORE/src/main/webapp/jsp/info.jsp" />
         <option value="$PROJECT_DIR$/MYSTORE/src/main/webapp/jsp/register.jsp" />
         <option value="$PROJECT_DIR$/MYSTORE/src/main/resources/c3p0-config.xml" />
         <option value="$PROJECT_DIR$/MYSTORE/src/main/java/cn/store/demo/Test/TestEmail.java" />
         <option value="$PROJECT_DIR$/MYSTORE/src/main/resources/mail.properties" />
-        <option value="$PROJECT_DIR$/MYSTORE/src/main/java/cn/store/demo/utils/MailUtils.java" />
         <option value="$PROJECT_DIR$/MYSTORE/src/main/java/cn/store/demo/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/MYSTORE/src/main/java/cn/store/demo/service/UserService.java" />
         <option value="$PROJECT_DIR$/MYSTORE/src/main/java/cn/store/demo/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/MYSTORE/src/main/java/cn/store/demo/web/servlet/UserServlet.java" />
         <option value="$PROJECT_DIR$/MYSTORE/src/main/webapp/jsp/login.jsp" />
         <option value="$PROJECT_DIR$/MYSTORE/src/main/java/cn/store/demo/dao/impl/UserDaoImpl.java" />
+        <option value="$PROJECT_DIR$/MYSTORE/src/main/webapp/jsp/index.jsp" />
+        <option value="$PROJECT_DIR$/MYSTORE/src/main/java/cn/store/demo/web/servlet/UserServlet.java" />
+        <option value="$PROJECT_DIR$/MYSTORE/src/main/java/cn/store/demo/utils/MailUtils.java" />
       </list>
     </option>
   </component>
@@ -289,9 +302,9 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="113" />
-    <option name="y" value="64" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="131" />
+    <option name="y" value="18" />
     <option name="width" value="1735" />
     <option name="height" value="988" />
   </component>
@@ -434,17 +447,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TestDemoSpace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestDemoSpace" type="462c0819:PsiDirectoryNode" />
-              <item name="MYSTORE" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -457,6 +459,16 @@
               <item name="demo" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestDemoSpace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestDemoSpace" type="462c0819:PsiDirectoryNode" />
+              <item name="MYSTORE" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TestDemoSpace" type="b2602c69:ProjectViewProjectNode" />
@@ -494,6 +506,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestDemoSpace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestDemoSpace" type="462c0819:PsiDirectoryNode" />
+              <item name="MYSTORE" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -549,7 +570,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.MyStore">
+  <component name="RunManager" selected="Application.MailUtils">
     <configuration name="MailUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.store.demo.utils.MailUtils" />
       <module name="MYSTORE" />
@@ -1015,7 +1036,7 @@
       <workItem from="1563544136698" duration="3174000" />
       <workItem from="1563625393563" duration="10909000" />
       <workItem from="1563673383569" duration="16758000" />
-      <workItem from="1563756869407" duration="9229000" />
+      <workItem from="1563756869407" duration="11331000" />
     </task>
     <task id="LOCAL-00001" summary="学习事件监听器">
       <created>1563028528251</created>
@@ -1129,7 +1150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1563696923829</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="update">
+      <created>1563775963985</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1563775963985</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1150,7 +1178,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110884000" />
+    <option name="totallyTimeSpent" value="112986000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1162,10 +1190,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="131" y="18" width="1735" height="988" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" x="789" y="61" width="341" height="928" id="Project" order="0" sideWeight="0.49786323" visible="true" weight="0.29424307" />
+      <window_info content_ui="combo" x="789" y="61" width="341" height="928" id="Project" order="0" sideWeight="0.49786323" weight="0.29424307" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1176,7 +1204,7 @@
       <window_info id="Web" order="8" sideWeight="0.50213677" side_tool="true" weight="0.25053304" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32901832" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.7905983" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39251208" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3985043" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1403,13 +1431,6 @@
     <entry file="file://$PROJECT_DIR$/MYSTORE/src/main/webapp/products/hao/middle01.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/MYSTORE/src/main/webapp/jsp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="30" column="75" selection-start-line="30" selection-start-column="75" selection-end-line="30" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/commons-beanutils/commons-beanutils/1.8.3/commons-beanutils-1.8.3.jar!/org/apache/commons/beanutils/BeanUtils.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
@@ -1502,41 +1523,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MYSTORE/src/main/java/cn/store/demo/web/base/BaseServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="32" column="23" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MYSTORE/src/main/java/cn/store/demo/utils/MailUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="54" column="80" selection-start-line="54" selection-start-column="76" selection-end-line="54" selection-end-column="80" />
-          <folding>
-            <element signature="e#883#1061#0" expanded="true" />
-            <element signature="e#1060#1061#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MYSTORE/src/main/webapp/jsp/info.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
           <caret line="80" column="9" selection-start-line="80" selection-start-column="9" selection-end-line="80" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MYSTORE/src/main/webapp/jsp/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1572,19 +1562,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MYSTORE/src/main/java/cn/store/demo/web/servlet/UserServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="87" column="20" selection-start-line="87" selection-start-column="20" selection-end-line="87" selection-end-column="20" />
-          <folding>
-            <element signature="docComment;method#registUI#0;class#UserServlet#0" />
-            <element signature="e#1003#1004#0" expanded="true" />
-            <element signature="e#1039#1040#0" expanded="true" />
-            <element signature="method#userRegister#0;class#UserServlet#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MYSTORE/src/main/java/cn/store/demo/service/impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
@@ -1597,10 +1574,67 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MYSTORE/src/main/java/cn/store/demo/dao/impl/UserDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="814">
+        <state relative-caret-position="304">
           <caret line="49" column="27" lean-forward="true" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MYSTORE/src/main/webapp/jsp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="29" column="94" lean-forward="true" selection-start-line="29" selection-start-column="94" selection-end-line="29" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MYSTORE/src/main/java/cn/store/demo/web/base/BaseServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-236">
+          <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MYSTORE/src/main/java/cn/store/demo/web/servlet/UserServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="614">
+          <caret line="105" column="1" lean-forward="true" selection-start-line="105" selection-start-column="1" selection-end-line="105" selection-end-column="1" />
+          <folding>
+            <element signature="docComment;method#registUI#0;class#UserServlet#0" />
+            <element signature="e#1003#1004#0" expanded="true" />
+            <element signature="e#1039#1040#0" expanded="true" />
+            <element signature="docComment;method#userRegister#0;class#UserServlet#0" />
+            <element signature="method#userRegister#0;class#UserServlet#0" />
+            <element signature="docComment;method#active#0;class#UserServlet#0" />
+            <element signature="method#active#0;class#UserServlet#0" />
+            <element signature="e#2855#2856#0" expanded="true" />
+            <element signature="e#2888#2889#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MYSTORE/src/main/webapp/jsp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="144" column="38" lean-forward="true" selection-start-line="144" selection-start-column="38" selection-end-line="144" selection-end-column="38" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MYSTORE/src/main/java/cn/store/demo/utils/MailUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="605">
+          <caret line="73" column="23" lean-forward="true" selection-start-line="73" selection-start-column="23" selection-end-line="73" selection-end-column="23" />
+          <folding>
+            <element signature="e#1022#1242#0" expanded="true" />
+            <element signature="e#1241#1242#0" expanded="true" />
           </folding>
         </state>
       </provider>
