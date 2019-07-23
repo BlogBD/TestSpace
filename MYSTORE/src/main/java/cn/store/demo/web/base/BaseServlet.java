@@ -9,6 +9,13 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+/**
+ * 项目的基类
+ *
+ * 继承该类的所有servlet会在请求该servlet是时候提供一个method参数，
+ * 在service方法中，通过发射去调用method给发参数值，也就是子类要实现的方法，
+ * 从而达到减少servlet的效果
+ */
 @WebServlet(name = "BaseServlet", urlPatterns = "/BaseServlet")
 public class BaseServlet extends HttpServlet {
   @Override
