@@ -162,4 +162,20 @@ public class UserServlet extends BaseServlet {
     }
     return null;
   }
+
+  /**
+   * 退出登陆
+   * @param request
+   * @param response
+   * @return
+   */
+  public String logout(HttpServletRequest request,HttpServletResponse response){
+    request.getSession().invalidate();
+    try {
+      response.sendRedirect("index.jsp");//重定向到主页
+    } catch (IOException e) {
+      e.printStackTrace();
+    }
+    return null;
+  }
 }
