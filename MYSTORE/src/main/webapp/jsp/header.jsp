@@ -88,6 +88,7 @@
         $.post(url,obj,function (data) {
             //获取到服务端返回的来的数据，存放在data中
             $.each(data,function (i,obj) {
+                //'${pageContext.request.contextPath}/ProductServlet?method=findProductsWithCidAndPage&num=1&cid="+obj.cid+"'
                 var li="<li><a href='#'>"+obj.cname+"</a><li>";
                 $("#myUL").append(li);
             });

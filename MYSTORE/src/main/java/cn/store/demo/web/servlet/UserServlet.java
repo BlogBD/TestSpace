@@ -24,6 +24,9 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;
 
+/**
+ * 用户的操作
+ */
 @WebServlet(name = "UserServlet", urlPatterns = "/UserServlet")
 public class UserServlet extends BaseServlet {
   /**
@@ -170,6 +173,7 @@ public class UserServlet extends BaseServlet {
    * @return
    */
   public String logout(HttpServletRequest request,HttpServletResponse response){
+    //设置session失效，登陆退出
     request.getSession().invalidate();
     try {
       response.sendRedirect("index.jsp");//重定向到主页
