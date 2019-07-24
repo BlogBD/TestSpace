@@ -20,4 +20,11 @@ public interface ProductDao {
      * @return
      */
      List<Product> findNews() throws SQLException;
+
+    /**
+     * 通过pid查询该商品的详细信息
+     * @param pid
+     * @return
+     */
+    Product findProductById(String pid) throws SQLException;
 }

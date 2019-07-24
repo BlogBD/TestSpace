@@ -22,4 +22,11 @@ public interface ProductService {
      * @throws SQLException
      */
     List<Product> findNews() throws SQLException;
+
+    /**
+     * 通过pid查询到该商品的所有信息详情
+     * @param pid
+     * @return
+     */
+    Product findProductById(String pid) throws SQLException;
 }

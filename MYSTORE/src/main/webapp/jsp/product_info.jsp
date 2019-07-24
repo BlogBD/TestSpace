@@ -37,25 +37,23 @@
 <div class="container">
     <div class="row">
         <div style="border: 1px solid #e4e4e4;width:930px;margin-bottom:10px;margin:0 auto;padding:10px;margin-bottom:10px;">
-            <a href="${pageContext.request.contextPath}/">首页&nbsp;&nbsp;&gt;</a>
-            <a href="${pageContext.request.contextPath}/">蔬菜&nbsp;&nbsp;&gt;</a>
-            <a>无公害蔬菜</a>
+            <a href="${pageContext.request.contextPath}/index.jsp">首页&nbsp;&nbsp;&gt;</a>
         </div>
 
         <div style="margin:0 auto;width:950px;">
             <div class="col-md-6">
                 <img style="opacity: 1;width:400px;height:350px;" title="" class="medium"
-                     src="${pageContext.request.contextPath}/products/2/bigPic5f3622b8-028a-4e62-a77f-f41a16d715ed.jpg">
+                     src="${pageContext.request.contextPath}/${productInfo.pimage}">
             </div>
 
             <div class="col-md-6">
-                <div><strong>大冬瓜</strong></div>
+                <div><strong>${productInfo.pname}</strong></div>
                 <div style="border-bottom: 1px dotted #dddddd;width:350px;margin:10px 0 10px 0;">
-                    <div>编号：751</div>
+                    <div>编号：${productInfo.pid}</div>
                 </div>
 
-                <div style="margin:10px 0 10px 0;">亿家价: <strong style="color:#ef0101;">￥：4.78元/份</strong> 参 考 价：
-                    <del>￥6.00元/份</del>
+                <div style="margin:10px 0 10px 0;">亿家价: <strong style="color:#ef0101;">￥：${productInfo.shop_price}元/份</strong> 参 考 价：
+                    <del>￥${productInfo.market_price}元/份</del>
                 </div>
 
                 <div style="margin:10px 0 10px 0;">促销: <a target="_blank" title="限时抢购 (2014-07-30 ~ 2015-01-01)"
@@ -83,6 +81,7 @@
         <div style="width:950px;margin:0 auto;">
             <div style="background-color:#d3d3d3;width:930px;padding:10px 10px;margin:10px 0 10px 0;">
                 <strong>商品介绍</strong>
+                <span><h5>${productInfo.pdesc}</h5></span>
             </div>
         </div>
     </div>

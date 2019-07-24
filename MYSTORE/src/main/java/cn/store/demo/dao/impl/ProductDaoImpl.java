@@ -4,6 +4,7 @@ import cn.store.demo.dao.ProductDao;
 import cn.store.demo.domain.Product;
 import cn.store.demo.utils.JDBCUtils;
 import org.apache.commons.dbutils.QueryRunner;
+import org.apache.commons.dbutils.handlers.BeanHandler;
 import org.apache.commons.dbutils.handlers.BeanListHandler;
 
 import java.sql.SQLException;
@@ -40,5 +41,18 @@ public class ProductDaoImpl implements ProductDao {
         String sql="select * from product where pflag=0 order by pdate desc limit 0 , 9";
         List<Product> list = qr.query(sql, new BeanListHandler<Product>(Product.class));
         return list;
+    }
+
+    /**
+     * 通过pid获取商品的详细信息
+     * @param pid
+     * @return
+     * @throws SQLException
+     */
+    @Override
+    public Product findProductById(String pid) throws SQLException {
+        String sql="select * from product where pid = ?";
+        Product p = qr.query(sql, new BeanHandler<>(Product.class), pid);
+        return p;
     }
 }

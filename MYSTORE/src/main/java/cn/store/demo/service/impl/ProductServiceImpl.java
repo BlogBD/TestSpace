@@ -29,4 +29,14 @@ public class ProductServiceImpl implements ProductService {
     public List<Product> findNews() throws SQLException {
         return new ProductDaoImpl().findNews();
     }
+
+    /**
+     * 实现通pid查询到该商品详情的业务
+     * @param pid
+     * @return
+     */
+    @Override
+    public Product findProductById(String pid) throws SQLException {
+        return new ProductDaoImpl().findProductById(pid);
+    }
 }
