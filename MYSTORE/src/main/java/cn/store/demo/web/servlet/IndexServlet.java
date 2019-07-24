@@ -20,7 +20,7 @@ public class IndexServlet extends BaseServlet {
         try {
             //获取全部的分类信息
             CategoryService categoryService = new CategoryServiceImpl();
-            List<Category> list= categoryService.getAll();
+            List<Category> list= categoryService.getAllCats();
             //将返回的集合放入request中
             req.setAttribute("allCats",list);
             //转发到jsp中的首页index.jsp

@@ -61,12 +61,10 @@
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="${pageContext.request.contextPath}/jsp/product_list.jsp">手机数码<span
-                            class="sr-only">(current)</span></a></li>
-                    <li><a href="#">电脑办公</a></li>
-                    <li><a href="#">电脑办公</a></li>
-                    <li><a href="#">电脑办公</a></li>
+                <ul class="nav navbar-nav" id="myUL">
+                    <%--<c:forEach items="${allCats}" var="c">
+                    <li><a href="#">${c.cname}</a></li>
+                    </c:forEach>--%>
                 </ul>
                 <form class="navbar-form navbar-right" role="search">
                     <div class="form-group">
@@ -82,5 +80,18 @@
     </nav>
 </div>
 </body>
-
+<script>
+    $(function () {
+        //向服务端发起一个ajax请求，以json格式返回
+        var  url="${pageContext.request.contextPath}/CategoryServlet";
+        var obj={"method":"findAllCats"};
+        $.post(url,obj,function (data) {
+            //获取到服务端返回的来的数据，存放在data中
+            $.each(data,function (i,obj) {
+                var li="<li><a href='#'>"+obj.cname+"</a><li>";
+                $("#myUL").append(li);
+            });
+        },"json");
+    });
+</script>
 </html>

@@ -6,5 +6,5 @@ import java.sql.SQLException;
 import java.util.List;
 
 public interface CategoryService {
-    List<Category> getAll() throws SQLException;
+    List<Category> getAllCats() throws SQLException;
 }
