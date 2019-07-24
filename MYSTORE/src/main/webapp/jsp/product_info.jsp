@@ -1,5 +1,5 @@
 ﻿<%@ page language="java" contentType="text/html; charset=UTF-8"
-                pageEncoding="UTF-8" isELIgnored="false" %>
+         pageEncoding="UTF-8" isELIgnored="false" %>
 <!doctype html>
 <html>
 
@@ -32,7 +32,7 @@
 <!--
     描述：菜单栏
 -->
-<%@include file="header.jsp"%>
+<%@include file="header.jsp" %>
 
 <div class="container">
     <div class="row">
@@ -77,68 +77,14 @@
                 </div>
             </div>
         </div>
-        <div class="clear"></div>
+        <div class="clear">
+
+        </div>
         <div style="width:950px;margin:0 auto;">
             <div style="background-color:#d3d3d3;width:930px;padding:10px 10px;margin:10px 0 10px 0;">
                 <strong>商品介绍</strong>
             </div>
-
-            <div>
-                <img src="${pageContext.request.contextPath}/products/2/bigPic139f030b-d68b-41dd-be6d-b94cc568d3c5.jpg">
-            </div>
-
-            <div style="background-color:#d3d3d3;width:930px;padding:10px 10px;margin:10px 0 10px 0;">
-                <strong>商品参数</strong>
-            </div>
-            <div style="margin-top:10px;width:900px;">
-                <table class="table table-bordered">
-                    <tbody>
-                    <tr class="active">
-                        <th colspan="2">基本参数</th>
-                    </tr>
-                    <tr>
-                        <th width="10%">级别</th>
-                        <td width="30%">标准</td>
-                    </tr>
-                    <tr>
-                        <th width="10%">标重</th>
-                        <td>500</td>
-                    </tr>
-                    <tr>
-                        <th width="10%">浮动</th>
-                        <td>200</td>
-                    </tr>
-                    </tbody>
-                </table>
-            </div>
-
-            <div style="background-color:#d3d3d3;width:900px;">
-                <table class="table table-bordered">
-                    <tbody>
-                    <tr class="active">
-                        <th><strong>商品评论</strong></th>
-                    </tr>
-                    <tr class="warning">
-                        <th>暂无商品评论信息 <a>[发表商品评论]</a></th>
-                    </tr>
-                    </tbody>
-                </table>
-            </div>
-
-            <div style="background-color:#d3d3d3;width:900px;">
-                <table class="table table-bordered">
-                    <tbody>
-                    <tr class="active">
-                        <th><strong>商品咨询</strong></th>
-                    </tr>
-                    <tr class="warning">
-                        <th>暂无商品咨询信息 <a>[发表商品咨询]</a></th>
-                    </tr>
-                    </tbody>
-                </table>
-            </div>
         </div>
-
     </div>
 </div>
 
