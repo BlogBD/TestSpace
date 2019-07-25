@@ -6,6 +6,7 @@ import cn.store.demo.utils.JDBCUtils;
 import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.handlers.BeanHandler;
 import org.apache.commons.dbutils.handlers.BeanListHandler;
+import org.apache.commons.dbutils.handlers.ScalarHandler;
 
 import java.sql.SQLException;
 import java.util.List;
@@ -54,5 +55,24 @@ public class ProductDaoImpl implements ProductDao {
         String sql="select * from product where pid = ?";
         Product p = qr.query(sql, new BeanHandler<>(Product.class), pid);
         return p;
+    }
+
+    /**
+     * 获取通过cid总的记录数
+     * @param cid
+     * @return
+     */
+    @Override
+    public int findTotalRecords(String cid) throws SQLException {
+        String sql="select count(*) from product where cid = ?";
+        Long count = (Long)qr.query(sql, new ScalarHandler<>(), cid);
+        return count.intValue();
+    }
+
+    @Override
+    public List<Product> findProductsWithCidAndPage(String cid, int startIndex, int pageSize) throws SQLException {
+        String sql="select * from product where cid=? limit ?,?";
+        List<Product> list = qr.query(sql, new BeanListHandler<Product>(Product.class), cid,startIndex, pageSize);
+        return list;
     }
 }

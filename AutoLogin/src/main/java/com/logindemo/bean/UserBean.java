@@ -1,7 +1,4 @@
 package com.logindemo.bean;
-
-import org.junit.Test;
-
 public class UserBean {
     private int id;
     private String username;

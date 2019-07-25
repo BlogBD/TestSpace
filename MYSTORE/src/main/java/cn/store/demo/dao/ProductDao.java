@@ -27,4 +27,21 @@ public interface ProductDao {
      * @return
      */
     Product findProductById(String pid) throws SQLException;
+
+    /**
+     * 通过cid查询到该类的总的记录数
+     * @param cid
+     * @return
+     */
+    int findTotalRecords(String cid) throws SQLException;
+
+    /**
+     * 通过分页信息查询到该页的商品集合
+     * @param cid
+     * @param startIndex
+     * @param pageSize
+     * @return
+     */
+    List<Product> findProductsWithCidAndPage(String cid, int startIndex, int pageSize) throws SQLException;
+
 }

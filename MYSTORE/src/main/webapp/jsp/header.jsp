@@ -56,7 +56,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">首页</a>
+                <a class="navbar-brand" href="index.jsp">首页</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -89,7 +89,7 @@
             //获取到服务端返回的来的数据，存放在data中
             $.each(data,function (i,obj) {
                 //'${pageContext.request.contextPath}/ProductServlet?method=findProductsWithCidAndPage&num=1&cid="+obj.cid+"'
-                var li="<li><a href='#'>"+obj.cname+"</a><li>";
+                var li="<li><a href='${pageContext.request.contextPath}/ProductServlet?method=findProductsWithCidAndPage&num=1&cid="+obj.cid+"'>"+obj.cname+"</a><li>";
                 $("#myUL").append(li);
             });
         },"json");

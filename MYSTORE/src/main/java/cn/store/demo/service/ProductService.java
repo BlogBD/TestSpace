@@ -1,6 +1,7 @@
 package cn.store.demo.service;
 
 import cn.store.demo.domain.Product;
+import cn.store.demo.utils.PageModel;
 
 import java.sql.SQLException;
 import java.util.List;
@@ -29,4 +30,12 @@ public interface ProductService {
      * @return
      */
     Product findProductById(String pid) throws SQLException;
+
+    /**
+     * 查询分页信息
+     * @param cid
+     * @param num
+     * @return
+     */
+    PageModel findProductsWithCidAndPage(String cid, int num) throws SQLException;
 }
