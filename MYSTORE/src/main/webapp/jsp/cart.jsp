@@ -84,7 +84,7 @@
 									<span class="subtotal">${item.subTotal}</span>
 								</td>
 								<td>
-									<a href="javascript:;" class="delete">删除</a>
+									<a href="javascript:;" id="${item.product.pid}" class="delete" title="${item.product.pid}">删除</a>
 								</td>
 							</tr>
 							</c:forEach>
@@ -101,7 +101,7 @@
 			</em> 赠送积分: <em style="color:#ff6600;">${cart.total}</em>&nbsp; 商品金额: <strong style="color:#ff6600;">￥${cart.total}元</strong>
 				</div>
 				<div style="text-align:right;margin-top:10px;margin-bottom:10px;">
-					<a href="${pageContext.request.contextPath}/jsp/order_info.jsp" id="clear" class="clear">清空购物车</a>
+					<a href="${pageContext.request.contextPath}/CartServlet?method=clearCart" id="clear" class="clear">清空购物车</a>
 					<a href="${pageContext.request.contextPath}/jsp/order_info.jsp">
 						<%--提交表单 --%>
 						<input type="submit" width="100" value="提交订单" name="submit" border="0" style="background: url('${pageContext.request.contextPath}/img/register.gif') no-repeat scroll 0 0 rgba(0, 0, 0, 0);
@@ -109,14 +109,18 @@
 					</a>
 				</div>
 			</div>
-
 		</div>
-
-			<!--
-           描述：页脚部分
-       -->
-			<%@include file="/jsp/footer.jsp"%>
+	<!--描述：页脚部分-->
+	<%@include file="/jsp/footer.jsp"%>
 
 	</body>
-
+<script>
+	$(".delete").click(function () {
+		var pid=this.title;
+		if (confirm("确认删除！")) {
+			//获取到删除的pid
+			window.location.href="${pageContext.request.contextPath}/CartServlet?method=deleteCartItemById&pid="+pid;
+		}
+	});
+</script>
 </html>

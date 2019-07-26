@@ -39,7 +39,7 @@ public class Cart {
   }
   // 获取总计
   public double getTotal() {
-
+    total=0;
     Collection<CartItem> values = map.values(); // 获取所有购物项
     for (CartItem cartItem : values) {
       total += cartItem.getSubTotal();

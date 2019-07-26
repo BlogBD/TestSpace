@@ -34,10 +34,10 @@
             <c:if test="${not empty loginUser}">
                 <%--登陆成功显示--%>
                 <li>欢迎 ${loginUser.username}</li>
-                <li>   <a href="${pageContext.request.contextPath}/UserServlet?method=logout">退出</a></li>
+                <li><a href="${pageContext.request.contextPath}/UserServlet?method=logout">退出</a></li>
+                <li><a href="${pageContext.request.contextPath}/jsp/cart.jsp">购物车</a></li>
+                <li><a href="${pageContext.request.contextPath}/jsp/order_list.jsp">我的订单</a></li>
             </c:if>
-            <li><a href="${pageContext.request.contextPath}/jsp/cart.jsp">购物车</a></li>
-            <li><a href="${pageContext.request.contextPath}/jsp/order_list.jsp">我的订单</a></li>
         </ol>
     </div>
 </div>
