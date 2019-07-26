@@ -15,7 +15,7 @@ public class Order {
   private String telephone;
  // private String uid;
   private User user;
-  private List<Orderitem> list=new ArrayList<>();
+  private List<OrderItem> list=new ArrayList<>();
 
 
   public String getOid() {
@@ -88,11 +88,11 @@ public class Order {
     this.user = user;
   }
 
-    public List<Orderitem> getList() {
+    public List<OrderItem> getList() {
         return list;
     }
 
-    public void setList(List<Orderitem> list) {
+    public void setList(List<OrderItem> list) {
         this.list = list;
     }
 }

@@ -1,7 +1,7 @@
 package cn.store.demo.domain;
 
 
-public class Orderitem {
+public class OrderItem {
 
   private String itemid;
   private long quantity;
