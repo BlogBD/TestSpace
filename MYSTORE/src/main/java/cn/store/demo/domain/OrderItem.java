@@ -4,7 +4,7 @@ package cn.store.demo.domain;
 public class OrderItem {
 
   private String itemid;
-  private long quantity;
+  private int quantity;
   private double total;
   //private String pid;
   private Product product;
@@ -21,11 +21,11 @@ public class OrderItem {
   }
 
 
-  public long getQuantity() {
+  public int getQuantity() {
     return quantity;
   }
 
-  public void setQuantity(long quantity) {
+  public void setQuantity(int quantity) {
     this.quantity = quantity;
   }
 

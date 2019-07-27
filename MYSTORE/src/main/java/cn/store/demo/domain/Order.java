@@ -2,12 +2,13 @@ package cn.store.demo.domain;
 
 
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 public class Order {
 
   private String oid;
-  private java.sql.Date ordertime;
+  private Date ordertime;
   private double total;
   private long state;
   private String address;
@@ -27,11 +28,11 @@ public class Order {
   }
 
 
-  public java.sql.Date getOrdertime() {
+  public Date getOrdertime() {
     return ordertime;
   }
 
-  public void setOrdertime(java.sql.Date ordertime) {
+  public void setOrdertime(Date ordertime) {
     this.ordertime = ordertime;
   }
 

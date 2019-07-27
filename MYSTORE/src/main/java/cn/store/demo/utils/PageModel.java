@@ -21,7 +21,7 @@ public class PageModel {
 	private int startPage;//开始页码
 	private int endPage;//结束页码
 	
-	private List list;//已经分好页的结果集,该list中只有10条记录
+	private List list;//已经分好页的结果集
 	//完善属性
 	private String url;
 	
