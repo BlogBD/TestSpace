@@ -1,4 +1,6 @@
-<%@ page language="java" pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+		 pageEncoding="UTF-8" isELIgnored="false"%>
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <HTML>
 	<HEAD>
 		<meta http-equiv="Content-Language" content="zh-cn">
@@ -7,7 +9,7 @@
 		<script type="text/javascript"  src="${pageContext.request.contextPath}/js/public.js"></script>
 		<script type="text/javascript">
 			function addCategory(){
-				window.location.href = "${pageContext.request.contextPath}/admin/category/add.jsp";
+				window.location.href = "${pageContext.request.contextPath}/AdminCategoryServlet?method=addCategoryUI";
 			}
 		</script>
 	</HEAD>
@@ -49,15 +51,16 @@
 										删除
 									</td>
 								</tr>
+								<c:forEach items="${allCats}" var="cats" varStatus="status">
 										<tr onmouseover="this.style.backgroundColor = 'white'"
 											onmouseout="this.style.backgroundColor = '#F5FAFE';">
 											<td style="CURSOR: hand; HEIGHT: 22px" align="center"
 												width="18%">
-												1
+												${status.count}
 											</td>
 											<td style="CURSOR: hand; HEIGHT: 22px" align="center"
 												width="17%">
-												服装
+													${cats.cname}
 											</td>
 											<td align="center" style="HEIGHT: 22px">
 												<a href="edit.jsp">
@@ -67,10 +70,11 @@
 									
 											<td align="center" style="HEIGHT: 22px">
 												<a href="#">
-													<img src="${pageContext.request.contextPath} /i_del.gif" width="16" height="16" border="0" style="CURSOR: hand">
+													<img src="${pageContext.request.contextPath}/img/admin/i_del.gif" width="16" height="16" border="0" style="CURSOR: hand">
 												</a>
 											</td>
 										</tr>
+								</c:forEach>
 							</table>
 						</td>
 					</tr>

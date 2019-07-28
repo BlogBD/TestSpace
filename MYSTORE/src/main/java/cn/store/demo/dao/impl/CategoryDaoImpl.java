@@ -17,4 +17,19 @@ public class CategoryDaoImpl implements CategoryDao {
         List<Category> list = qr.query(spl, new BeanListHandler<Category>(Category.class));
         return list;
     }
+
+    /**
+     * 实现分类信息的添加
+     * @param category
+     */
+    @Override
+    public void addCategory(Category category) {
+        try {
+            String spl="insert into  category values (?,?)";
+            QueryRunner qr = new QueryRunner(JDBCUtils.getDataSource());
+            qr.update(spl,category.getCid(),category.getCname());
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
 }
