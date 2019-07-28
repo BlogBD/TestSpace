@@ -27,5 +27,5 @@ public interface OrderService {
      * @param oid
      * @return
      */
-    Order findOrderByOid(String oid) throws SQLException;
+    Order findOrderByOid(String oid) throws SQLException, InvocationTargetException, IllegalAccessException;
 }

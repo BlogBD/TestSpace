@@ -89,13 +89,15 @@ public class OrderServlet extends BaseServlet {
    * @param response
    * @return
    */
-  public String findOrderByOid(HttpServletRequest request, HttpServletResponse response) throws SQLException {
+  public String findOrderByOid(HttpServletRequest request, HttpServletResponse response) throws SQLException, InvocationTargetException, IllegalAccessException {
     //获取付款订单的oid
     String oid = request.getParameter("oid");
     //调用业务层：根据订单编号查询到订单信息
     OrderService orderService = new OrderServiceImpl();
     Order order= orderService.findOrderByOid(oid);
-
-    return "";
+    // 将订单放入request中
+    request.setAttribute("order", order);
+    // 调用业务层功能：保存订单
+    return "/jsp/order_info.jsp";
   }
 }

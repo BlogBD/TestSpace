@@ -79,7 +79,7 @@ public class OrderServiceImpl implements OrderService {
   }
 
   @Override
-  public Order findOrderByOid(String oid) throws SQLException {
+  public Order findOrderByOid(String oid) throws SQLException, InvocationTargetException, IllegalAccessException {
 
     return new OrderDaoImpl().findOrderByOid(oid);
   }
