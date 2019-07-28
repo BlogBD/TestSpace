@@ -41,4 +41,11 @@ public interface OrderDao {
      * @param pageSize
      */
     List<Order> findMyOrdersWithPage(User user, int startIndex, int pageSize) throws SQLException, InvocationTargetException, IllegalAccessException;
+
+    /**
+     * 通过订单表oid查询到订单表
+     * @param oid
+     * @return
+     */
+    Order findOrderByOid(String oid) throws SQLException, InvocationTargetException, IllegalAccessException;
 }

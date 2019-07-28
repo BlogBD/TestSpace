@@ -56,6 +56,7 @@ public class OrderServiceImpl implements OrderService {
    */
   @Override
   public PageModel findMyOrderWithPage(User user, int num) throws SQLException, InvocationTargetException, IllegalAccessException {
+
     PageModel pm= null;
     try {
       //获取中的该用户的所有订单总数
@@ -75,5 +76,11 @@ public class OrderServiceImpl implements OrderService {
       e.printStackTrace();
     }
     return pm;
+  }
+
+  @Override
+  public Order findOrderByOid(String oid) throws SQLException {
+
+    return new OrderDaoImpl().findOrderByOid(oid);
   }
 }

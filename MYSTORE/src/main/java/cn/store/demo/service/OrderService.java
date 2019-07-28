@@ -21,4 +21,11 @@ public interface OrderService {
      * @return
      */
     PageModel findMyOrderWithPage(User user, int num) throws SQLException, InvocationTargetException, IllegalAccessException;
+
+    /**
+     * 通过oid查询订单表并返回
+     * @param oid
+     * @return
+     */
+    Order findOrderByOid(String oid) throws SQLException;
 }
