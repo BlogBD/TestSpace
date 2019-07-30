@@ -38,12 +38,13 @@ public class BaseServlet extends HttpServlet {
       // 查找子类对象对应的字节码中的名称为method的方法.这个方法的参数类型是:HttpServletRequest.class,HttpServletResponse.class
       Method md = clazz.getMethod(method, HttpServletRequest.class, HttpServletResponse.class);
       if (null != md) {
-        String jspPath = (String) md.invoke(this, req, resp);
+        String jspPath = (String) md.invoke(this, req, resp);//执行传入的方法名对应的方法
         if (null != jspPath) {
           req.getRequestDispatcher(jspPath).forward(req, resp);
         }
       }
     } catch (Exception e) {
+      System.err.println("反射错误");
       e.printStackTrace();
     }
   }

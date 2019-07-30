@@ -1,6 +1,7 @@
 package cn.store.demo.dao;
 
 import cn.store.demo.domain.Product;
+import cn.store.demo.utils.PageModel;
 
 import java.sql.SQLException;
 import java.util.List;
@@ -44,4 +45,17 @@ public interface ProductDao {
      */
     List<Product> findProductsWithCidAndPage(String cid, int startIndex, int pageSize) throws SQLException;
 
+    /**
+     * 查询商品的总数
+     * @return
+     */
+    int findTotalRecords() throws SQLException;
+
+    /**
+     * 通过分页算法查询当前页集合
+     * @param startIndex
+     * @param pageSize
+     * @return
+     */
+    List<Product> findProductsWithCidAndPage(int startIndex, int pageSize) throws SQLException;
 }

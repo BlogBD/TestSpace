@@ -59,4 +59,23 @@ public class ProductServiceImpl implements ProductService {
     pm.setUrl("ProductServlet?method=findProductsWithCidAndPage&cid="+cid);
         return pm;
     }
+
+    /**
+     * 管理后台查询全部商品
+     * @param num
+     * @return
+     */
+    @Override
+    public PageModel findProductsWithCidAndPage(int num) throws SQLException {
+        ProductDao productDao = new ProductDaoImpl();
+        //查询总记录数
+        int totalRecords=productDao.findTotalRecords();
+        PageModel pageModel = new PageModel(num,totalRecords,5);
+        //关联集合
+       List<Product> list= productDao.findProductsWithCidAndPage(pageModel.getStartIndex(),pageModel.getPageSize());
+       pageModel.setList(list);
+       //关联url
+        pageModel.setUrl("AdminProductServlet?method=findAllProductWithPage");
+        return pageModel;
+    }
 }

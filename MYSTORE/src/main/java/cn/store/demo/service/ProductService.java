@@ -38,4 +38,12 @@ public interface ProductService {
      * @return
      */
     PageModel findProductsWithCidAndPage(String cid, int num) throws SQLException;
+
+    /**
+     * 管理模块查询所有商品信息
+     * @param num
+     * @return
+     */
+    PageModel findProductsWithCidAndPage(int num) throws SQLException;
+
 }
