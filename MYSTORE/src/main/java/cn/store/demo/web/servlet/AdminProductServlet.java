@@ -6,8 +6,10 @@ import cn.store.demo.service.ProductService;
 import cn.store.demo.service.impl.CategoryServiceImpl;
 import cn.store.demo.service.impl.ProductServiceImpl;
 import cn.store.demo.utils.PageModel;
+import cn.store.demo.utils.UUIDUtils;
 import cn.store.demo.utils.UploadUtils;
 import cn.store.demo.web.base.BaseServlet;
+import org.apache.commons.beanutils.BeanUtils;
 import org.apache.commons.fileupload.FileItem;
 import org.apache.commons.fileupload.disk.DiskFileItemFactory;
 import org.apache.commons.fileupload.servlet.ServletFileUpload;
@@ -19,6 +21,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.InputStream;
+import java.sql.Date;
 import java.sql.SQLException;
 import java.util.HashMap;
 import java.util.List;
@@ -76,7 +79,7 @@ public class AdminProductServlet extends BaseServlet {
       List<FileItem> list = upload.parseRequest(request);
       // 存储传上来的数据
       HashMap<String, String> map = new HashMap<>();
-      //封装商品信息
+      // 封装商品信息
       Product product = new Product();
       // 遍历集合
       for (FileItem fileItem : list) {
@@ -84,32 +87,38 @@ public class AdminProductServlet extends BaseServlet {
           // 说明这是普通项
           map.put(fileItem.getFieldName(), fileItem.getString("utf-8"));
         } else { // 上传项执行
-            //获取要保存的文件的名称,并通过工具类重新生成名字
-            String oldFileName = fileItem.getName();
-            String newFileName = UploadUtils.getUUIDName(oldFileName);
-
-
-            InputStream inputStream = fileItem.getInputStream();//获取输入流
-            //创建一个空文件
-          String realPath = getServletContext().getRealPath("/products/3");//获取到当前工程下的/products/3的绝对路径
-            String dir = UploadUtils.getDir(newFileName);
-            String path=realPath+dir;
-            File file = new File(path);
-          if (!file.exists()) {
-            file.mkdirs();//创建多级目录
+          // 获取要保存的文件的名称,并通过工具类重新生成名字
+          String oldFileName = fileItem.getName();
+          String newFileName = UploadUtils.getUUIDName(oldFileName);
+          InputStream inputStream = fileItem.getInputStream(); // 获取输入流
+          // 创建一个空文件
+          String realPath =
+              getServletContext().getRealPath("/products/3"); // 获取到当前工程下的/products/3的绝对路径
+          String dir = UploadUtils.getDir(newFileName);
+          String path = realPath + dir;
+          File filePath = new File(path);
+          if (!filePath.exists()) {
+            filePath.mkdirs(); // 创建多级目录
           }
-          File file1=new File(file,newFileName);
-            if (!file1.exists()) {
-                file1.createNewFile();
-            }
-            FileOutputStream fileOutputStream = new FileOutputStream(file1);//创建输出流到file文件中
-            IOUtils.copy(inputStream,fileOutputStream);
-            IOUtils.closeQuietly(inputStream);
-            IOUtils.closeQuietly(fileOutputStream);
+          File file1 = new File(filePath, newFileName);
+          if (!file1.exists()) {
+            file1.createNewFile();
+          }
+          FileOutputStream fileOutputStream = new FileOutputStream(file1); // 创建输出流到file文件中
+          IOUtils.copy(inputStream, fileOutputStream);
+          IOUtils.closeQuietly(inputStream);
+          IOUtils.closeQuietly(fileOutputStream);
+          product.setPimage("/products/3"+dir+"/"+newFileName);//把图片路径保存到product对象中
+          BeanUtils.populate(product,map);
+          product.setPid(UUIDUtils.getId());
+          product.setPdate(new Date(new java.util.Date().getTime()));
+          product.setPflag(0);
+          //调用业务层把数据保存到数据库
+          ProductService productService = new ProductServiceImpl();
+          productService.saveProduct(product);
         }
       }
-
-      return "/admin/product/list.jsp";
+      response.sendRedirect(request.getContextPath()+"/admin/product/list.jsp");
     } catch (Exception e) {
       e.printStackTrace();
     }

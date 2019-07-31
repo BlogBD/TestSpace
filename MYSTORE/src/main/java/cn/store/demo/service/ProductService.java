@@ -46,4 +46,11 @@ public interface ProductService {
      */
     PageModel findProductsWithCidAndPage(int num) throws SQLException;
 
+    /**
+     * 保存商品
+     * @param product
+     */
+    void saveProduct(Product product) throws SQLException;
+
+
 }

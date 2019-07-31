@@ -78,4 +78,13 @@ public class ProductServiceImpl implements ProductService {
         pageModel.setUrl("AdminProductServlet?method=findAllProductWithPage");
         return pageModel;
     }
+
+    /**
+     * 保存商品业务实现
+     * @param product
+     */
+    @Override
+    public void saveProduct(Product product) throws SQLException {
+        new ProductDaoImpl().saveProduct(product);
+    }
 }

@@ -58,4 +58,10 @@ public interface ProductDao {
      * @return
      */
     List<Product> findProductsWithCidAndPage(int startIndex, int pageSize) throws SQLException;
+
+    /**
+     * 保存添加的商品
+     * @param product
+     */
+    void saveProduct(Product product) throws SQLException;
 }
