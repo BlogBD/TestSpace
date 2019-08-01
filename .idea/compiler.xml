@@ -12,12 +12,14 @@
         <module name="ListenerDemo" />
         <module name="AutoLogin" />
         <module name="Listener" />
+        <module name="Hibernate" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="AutoLogin" target="1.8" />
       <module name="BaseServlet" target="1.8" />
       <module name="Filter" target="1.8" />
+      <module name="Hibernate" target="1.8" />
       <module name="Listener" target="1.8" />
       <module name="ListenerDemo" target="1.8" />
       <module name="MyStore" target="1.8" />
