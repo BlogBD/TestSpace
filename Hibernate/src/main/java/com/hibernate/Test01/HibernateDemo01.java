@@ -1,6 +1,7 @@
 package com.hibernate.Test01;
 
 import com.hibernate.mapping.Customer;
+import com.hibernate.utils.HibernateUtils;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
@@ -28,5 +29,26 @@ public class HibernateDemo01 {
     transaction.commit();
     // 7.资源释放
     session.close();
+  }
+
+  /** 查询 */
+  @Test
+  public void test02() {
+    // 获取session
+    Session session = HibernateUtils.openSession();
+    Transaction transaction = session.beginTransaction();
+    // 使用get
+    Customer customer = session.get(Customer.class, 1L);
+    System.err.println(customer);
+    //使用load
+    Customer load = session.load(Customer.class, 4L);
+      System.err.println(load);
+      /**
+       * get方法：
+       * 采用的是立即加载，执行到这行代码的时候，就会马上发送sql语句去查询
+       * load方法：
+       * 采用的是延迟加载（lazy加载），执行到load方法时不会发送sql语句，当使用这个对象时才发送sql语句
+       */
+    transaction.commit();
   }
 }

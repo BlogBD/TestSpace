@@ -26,7 +26,17 @@
             <artifactId>junit</artifactId>
             <version>4.11</version>
         </dependency>
-
+        <!-- https://mvnrepository.com/artifact/com.mchange/ c3p0连接池jar-->
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-c3p0</artifactId>
+            <version>5.0.7.Final</version>
+        </dependency>
+        <dependency>
+            <groupId>com.mchange</groupId>
+            <artifactId>c3p0</artifactId>
+            <version>0.9.5.4</version>
+        </dependency>
     </dependencies>
 
 </project>
