@@ -15,6 +15,12 @@
         <property name="format_sql">true</property>
         <!--格式化sql-->
         <property name="show_sql"> true</property>
+        <!--自动建表 在映射文件中要规定每一列的长度，不然默认最大长度
+        如果数据库中没表，会自动创建一个；如果有表回更新表结构，以mapping为标准
+        -->
+<!--
+        <property name="hibernate.hbm2ddl.auto">update</property>
+-->
         <!--引入映射文件-->
         <mapping resource="Customer.hbm.xml"/>
     </session-factory>
