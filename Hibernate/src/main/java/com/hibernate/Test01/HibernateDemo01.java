@@ -38,17 +38,19 @@ public class HibernateDemo01 {
     Session session = HibernateUtils.openSession();
     Transaction transaction = session.beginTransaction();
     // 使用get
-    Customer customer = session.get(Customer.class, 1L);
-    System.err.println(customer);
-    //使用load
+   /* Customer customer = session.get(Customer.class, 1L);
+    System.err.println(customer);*/
+    // 使用load
     Customer load = session.load(Customer.class, 4L);
-      System.err.println(load);
-      /**
-       * get方法：
-       * 采用的是立即加载，执行到这行代码的时候，就会马上发送sql语句去查询
-       * load方法：
-       * 采用的是延迟加载（lazy加载），执行到load方法时不会发送sql语句，当使用这个对象时才发送sql语句
-       */
+    System.err.println(load);
+    /**
+     * get方法：
+     * 1.采用的是立即加载，执行到这行代码的时候，就会马上发送sql语句去查询 load方法：
+     * 2.返回的是真实对象
+     * load方法：
+     * 1.采用的是延迟加载（lazy加载），执行到load方法时不会发送sql语句，当使用这个对象时才发送sql语句
+     * 2.返回一个代理对象，javassist-3.2.1-GA.jar 利用的javassist技术产生的代理对象
+     */
     transaction.commit();
   }
 }
