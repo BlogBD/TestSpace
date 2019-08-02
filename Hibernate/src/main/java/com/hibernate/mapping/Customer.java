@@ -1,4 +1,4 @@
-package com.hibernate.demo;
+package com.hibernate.mapping;
 
 /**
  * 客服管理实体类
