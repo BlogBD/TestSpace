@@ -2,11 +2,16 @@ package com.hibernate.Test01;
 
 import com.hibernate.mapping.Customer;
 import com.hibernate.utils.HibernateUtils;
+import org.hibernate.SQLQuery;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
+import org.hibernate.query.Query;
 import org.junit.Test;
+
+import java.util.Arrays;
+import java.util.List;
 
 /** Hibernate测试 */
 public class HibernateDemo01 {
@@ -52,5 +57,65 @@ public class HibernateDemo01 {
      * 2.返回一个代理对象，javassist-3.2.1-GA.jar 利用的javassist技术产生的代理对象
      */
     transaction.commit();
+    session.close();
+  }
+
+  /**
+   * 修改操作
+   */
+  @Test
+  public void test03(){
+    Session session = HibernateUtils.openSession();
+    Transaction transaction = session.beginTransaction();
+    //1.先直接创建对象，进行修改
+    Customer customer = new Customer();
+    customer.setCustName("王小二");
+    customer.setCustId(5L);
+    session.update(customer);
+    //2.先修改，在修改（推荐）
+    Customer customer1 = session.get(Customer.class, 5L);
+    customer1.setCustName("王小贱");
+    session.update(customer);
+    transaction.commit();
+    session.close();
+  }
+
+  /**
+   * 删除
+   */
+  @Test
+  public void test04(){
+    Session session = HibernateUtils.openSession();
+    Transaction transaction = session.beginTransaction();
+    //直接创建对象删除
+   /* Customer customer = new Customer();
+    customer.setCustId(3L);
+    session.delete(customer);*/
+    //先查询在删除(推荐)
+    Customer customer1 = session.get(Customer.class, 3L);
+    session.delete(customer1);
+    transaction.commit();
+    session.close();
+  }
+
+  /**
+   * 查询所有
+   */
+  @Test
+  public void test05(){
+    Session session = HibernateUtils.openSession();
+    Transaction transaction = session.beginTransaction();
+    //HQL:Hibernate Query Language 面向对象的查询语言
+    Query from_customer_ = session.createQuery("from Customer ");
+    List<Customer> list = from_customer_.list();
+    list.forEach(i -> System.out.println(i));
+    //list.forEach(System.out::println);
+
+    //sql
+    SQLQuery sqlQuery = session.createSQLQuery("select * from cst_customer");
+    List<Object[]> list1 = sqlQuery.list();
+    list1.forEach(i -> System.out.println(Arrays.toString(i)));
+    transaction.commit();
+    session.close();
   }
 }
