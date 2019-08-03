@@ -1,13 +1,7 @@
 <component name="libraryTable">
   <library name="Maven: org.apache.taglibs.standard:glassfish:unknown">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/apache/taglibs/standard/glassfish/unknown/glassfish-unknown.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/org/apache/taglibs/standard/glassfish/unknown/glassfish-unknown-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/apache/taglibs/standard/glassfish/unknown/glassfish-unknown-sources.jar!/" />
-    </SOURCES>
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES />
   </library>
 </component>
