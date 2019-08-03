@@ -1,5 +1,18 @@
-package com.hibernate.mapping;
+package com.hibernate.Demo01.mapping;
+/*
+create table cst_customer
+(
+    cust_id       bigint(32) auto_increment comment '客户编号(主键)'
+        primary key,
+    cust_name     varchar(32) not null comment '客户名称(公司名称)',
+    cust_source   varchar(32) null comment '客户信息来源',
+    cust_industry varchar(32) null comment '客户所属行业',
+    cust_level    varchar(32) null comment '客户级别',
+    cust_phone    varchar(64) null comment '固定电话',
+    cust_mobile   varchar(16) null comment '移动电话'
+);
 
+*/
 /**
  * 客服管理实体类
  */
