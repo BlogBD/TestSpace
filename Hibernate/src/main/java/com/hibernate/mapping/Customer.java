@@ -1,4 +1,4 @@
-package com.hibernate.Demo01.mapping;
+package com.hibernate.mapping;
 /*
 create table cst_customer
 (

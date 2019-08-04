@@ -1,11 +1,10 @@
 package com.hibernate.Demo02;
 
-import com.hibernate.Demo01.mapping.Customer;
+import com.hibernate.mapping.Customer;
 import com.hibernate.utils.HibernateUtils;
 import org.hibernate.Criteria;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
-import org.hibernate.criterion.Restrictions;
 import org.hibernate.query.Query;
 import org.junit.Test;
 

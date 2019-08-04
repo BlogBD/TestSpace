@@ -4,7 +4,7 @@
         "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <hibernate-mapping>
     <!--建立类与表的映射-->
-    <class name="com.hibernate.Demo01.mapping.Customer" table="cst_customer">
+    <class name="com.hibernate.mapping.Customer" table="cst_customer">
         <!--主键对应-->
         <id name="custId" column="cust_id">
             <!--主键生成策略-->

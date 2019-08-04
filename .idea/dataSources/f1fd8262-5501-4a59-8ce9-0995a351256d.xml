@@ -904,7 +904,8 @@
       <DefaultForCharset>0</DefaultForCharset>
     </collation>
     <table id="226" parent="2" name="cst_customer"/>
-    <column id="227" parent="226" name="cust_id">
+    <table id="227" parent="2" name="cst_linkman"/>
+    <column id="228" parent="226" name="cust_id">
       <Position>1</Position>
       <Comment>客户编号(主键)</Comment>
       <DataType>bigint(32)|0s</DataType>
@@ -912,47 +913,124 @@
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="228" parent="226" name="cust_name">
+    <column id="229" parent="226" name="cust_name">
       <Position>2</Position>
       <Comment>客户名称(公司名称)</Comment>
       <DataType>varchar(32)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="229" parent="226" name="cust_source">
+    <column id="230" parent="226" name="cust_source">
       <Position>3</Position>
       <Comment>客户信息来源</Comment>
       <DataType>varchar(32)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="230" parent="226" name="cust_industry">
+    <column id="231" parent="226" name="cust_industry">
       <Position>4</Position>
       <Comment>客户所属行业</Comment>
       <DataType>varchar(32)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="231" parent="226" name="cust_level">
+    <column id="232" parent="226" name="cust_level">
       <Position>5</Position>
       <Comment>客户级别</Comment>
       <DataType>varchar(32)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="232" parent="226" name="cust_phone">
+    <column id="233" parent="226" name="cust_phone">
       <Position>6</Position>
       <Comment>固定电话</Comment>
       <DataType>varchar(64)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="233" parent="226" name="cust_mobile">
+    <column id="234" parent="226" name="cust_mobile">
       <Position>7</Position>
       <Comment>移动电话</Comment>
       <DataType>varchar(16)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="234" parent="226" name="PRIMARY">
+    <key id="235" parent="226" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>cust_id</ColNames>
       <Primary>1</Primary>
     </key>
+    <column id="236" parent="227" name="lkm_id">
+      <Position>1</Position>
+      <Comment>联系人编号(主键)</Comment>
+      <DataType>bigint(32)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="237" parent="227" name="lkm_name">
+      <Position>2</Position>
+      <Comment>联系人姓名</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="238" parent="227" name="lkm_cust_id">
+      <Position>3</Position>
+      <Comment>客户id</Comment>
+      <DataType>bigint(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="239" parent="227" name="lkm_gender">
+      <Position>4</Position>
+      <Comment>联系人性别</Comment>
+      <DataType>char(1)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="240" parent="227" name="lkm_phone">
+      <Position>5</Position>
+      <Comment>联系人办公电话</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="241" parent="227" name="lkm_mobile">
+      <Position>6</Position>
+      <Comment>联系人手机</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="242" parent="227" name="lkm_email">
+      <Position>7</Position>
+      <Comment>联系人邮箱</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="243" parent="227" name="lkm_qq">
+      <Position>8</Position>
+      <Comment>联系人qq</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="244" parent="227" name="lkm_position">
+      <Position>9</Position>
+      <Comment>联系人职位</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="245" parent="227" name="lkm_memo">
+      <Position>10</Position>
+      <Comment>联系人备注</Comment>
+      <DataType>varchar(512)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="246" parent="227" name="FK_cst_linkman_lkm_cust_id">
+      <ColNames>lkm_cust_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="247" parent="227" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>lkm_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="248" parent="227" name="FK_cst_linkman_lkm_cust_id">
+      <ColNames>lkm_cust_id</ColNames>
+      <RefSchemaName>Hibernate</RefSchemaName>
+      <RefTableName>cst_customer</RefTableName>
+      <RefColNames>cust_id</RefColNames>
+    </foreign-key>
   </database-model>
 </dataSource>

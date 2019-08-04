@@ -49,7 +49,7 @@ public class MailUtils {
 		message.setRecipient(RecipientType.TO, new InternetAddress(email)); 
 
 		//设置邮件主题
-		message.setSubject("用户激活");
+		message.setSubject("你在耍手机");
 		// message.setText("这是一封激活邮件，请<a href='#'>点击</a>");
 
 		String url="http://localhost:8080/MYSTORE/UserServlet?method=active&code="+emailMsg;
@@ -60,12 +60,12 @@ public class MailUtils {
 		// 3.创建 Transport用于将邮件发送
 		Transport.send(message);
 	}
-/*	public static void main(String[] args) throws AddressException, MessagingException, IOException {
-		for (int i= 0;i<20;i++){
+	/*public static void main(String[] args) throws AddressException, MessagingException, IOException {
+		for (int i= 0;i<10;i++){
 			//MailUtils.sendMail("787512757@qq.com", "abcdefg");
 			new Thread(()->{
 				try {
-					MailUtils.sendMail("787512757@qq.com", "abcdefg");
+					MailUtils.sendMail("787512757@qq.com", "曾敏你个大美女");
 				} catch (MessagingException e) {
 					e.printStackTrace();
 				} catch (IOException e) {

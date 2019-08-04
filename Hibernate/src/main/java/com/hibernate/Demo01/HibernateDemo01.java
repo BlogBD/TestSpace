@@ -1,6 +1,6 @@
-package com.hibernate.Demo01.Test01;
+package com.hibernate.Demo01;
 
-import com.hibernate.Demo01.mapping.Customer;
+import com.hibernate.mapping.Customer;
 import com.hibernate.utils.HibernateUtils;
 import org.hibernate.SQLQuery;
 import org.hibernate.Session;
