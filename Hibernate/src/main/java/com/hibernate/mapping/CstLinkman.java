@@ -5,7 +5,7 @@ import java.util.Objects;
 
 @Entity
 @Table(name = "cst_linkman", schema = "Hibernate")
-public class CstLinkmanEntity {
+public class CstLinkman {
     private long lkmId;
     private String lkmName;
     private String lkmGender;
@@ -15,6 +15,7 @@ public class CstLinkmanEntity {
     private String lkmQq;
     private String lkmPosition;
     private String lkmMemo;
+    private Customer customer;
 
     @Id
     @Column(name = "lkm_id")
@@ -106,11 +107,19 @@ public class CstLinkmanEntity {
         this.lkmMemo = lkmMemo;
     }
 
+    public Customer getCustomer() {
+        return customer;
+    }
+
+    public void setCustomer(Customer customer) {
+        this.customer = customer;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        CstLinkmanEntity that = (CstLinkmanEntity) o;
+        CstLinkman that = (CstLinkman) o;
         return lkmId == that.lkmId &&
                 Objects.equals(lkmName, that.lkmName) &&
                 Objects.equals(lkmGender, that.lkmGender) &&
@@ -129,7 +138,7 @@ public class CstLinkmanEntity {
 
     @Override
     public String toString() {
-        return "CstLinkmanEntity{" +
+        return "CstLinkman{" +
                 "lkmId=" + lkmId +
                 ", lkmName='" + lkmName + '\'' +
                 ", lkmGender='" + lkmGender + '\'' +
@@ -139,6 +148,7 @@ public class CstLinkmanEntity {
                 ", lkmQq='" + lkmQq + '\'' +
                 ", lkmPosition='" + lkmPosition + '\'' +
                 ", lkmMemo='" + lkmMemo + '\'' +
+                ", customer=" + customer +
                 '}';
     }
 }

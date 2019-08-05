@@ -1,6 +1,6 @@
 package com.hibernate.Demo03;
 
-import com.hibernate.mapping.CstLinkmanEntity;
+import com.hibernate.mapping.CstLinkman;
 import com.hibernate.utils.HibernateUtils;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
@@ -14,8 +14,8 @@ public class HibernateDemo03 {
   public void test01() {
     Session session = HibernateUtils.getCurrentSession();
     Transaction transaction = session.beginTransaction();
-    Query query = session.createQuery("from CstLinkmanEntity ");
-    query.list().forEach(i -> System.out.println((CstLinkmanEntity) i));
+    Query query = session.createQuery("from CstLinkman ");
+    query.list().forEach(i -> System.out.println((CstLinkman) i));
     transaction.commit();
   }
 }

@@ -13,6 +13,9 @@ create table cst_customer
 );
 
 */
+
+import java.util.Set;
+
 /**
  * 客服管理实体类
  */
@@ -24,7 +27,7 @@ public class Customer {
     private String custLevel;
     private String custPhone;
     private String custMobile;
-
+    private Set<CstLinkman> cstLinkmanSet;
 
     public long getCustId() {
         return custId;
@@ -87,6 +90,14 @@ public class Customer {
     public void setCustMobile(String custMobile) {
 
         this.custMobile = custMobile;
+    }
+
+    public Set<CstLinkman> getCstLinkmanSet() {
+        return cstLinkmanSet;
+    }
+
+    public void setCstLinkmanSet(Set<CstLinkman> cstLinkmanSet) {
+        this.cstLinkmanSet = cstLinkmanSet;
     }
 
     @Override

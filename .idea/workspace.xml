@@ -7,17 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f2bd86d-8c1c-4d7d-b6c6-19d99fab0dbf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Hibernate/src/main/java/com/hibernate/Demo03/HibernateDemo03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hibernate/src/main/java/com/hibernate/mapping/CstLinkmanEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f1fd8262-5501-4a59-8ce9-0995a351256d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f1fd8262-5501-4a59-8ce9-0995a351256d.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hibernate/src/main/java/com/hibernate/Demo4/HibernateDemo04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hibernate/src/main/resources/CstLinkman.hbm.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hibernate/Hibernate.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Hibernate/Hibernate.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hibernate/src/main/java/com/hibernate/Demo01/Test01/HibernateDemo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/Hibernate/src/main/java/com/hibernate/Demo01/HibernateDemo01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hibernate/src/main/java/com/hibernate/Demo01/mapping/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Hibernate/src/main/java/com/hibernate/mapping/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hibernate/src/main/java/com/hibernate/Demo02/HibernateDemo02.java" beforeDir="false" afterPath="$PROJECT_DIR$/Hibernate/src/main/java/com/hibernate/Demo02/HibernateDemo02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hibernate/src/main/java/com/hibernate/Demo03/HibernateDemo03.java" beforeDir="false" afterPath="$PROJECT_DIR$/Hibernate/src/main/java/com/hibernate/Demo03/HibernateDemo03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hibernate/src/main/java/com/hibernate/mapping/CstLinkmanEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Hibernate/src/main/java/com/hibernate/mapping/CstLinkman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hibernate/src/main/java/com/hibernate/mapping/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Hibernate/src/main/java/com/hibernate/mapping/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hibernate/src/main/resources/Customer.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Hibernate/src/main/resources/Customer.hbm.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hibernate/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Hibernate/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MYSTORE/src/main/java/cn/store/demo/utils/MailUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/MYSTORE/src/main/java/cn/store/demo/utils/MailUtils.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/接口回调/target/" />
@@ -63,6 +60,20 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="Hibernate: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@Hibernate" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="Hibernate: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="cst_customer: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@Hibernate" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="Hibernate: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="cst_linkman: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
     </expand>
     <select />
   </component>
@@ -75,45 +86,42 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Hibernate/src/main/java/com/hibernate/Demo01/HibernateDemo01.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="592">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Hibernate/src/main/java/com/hibernate/mapping/CstLinkmanEntity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="130" column="18" selection-start-line="130" selection-start-column="18" selection-end-line="130" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Hibernate/src/main/resources/hibernate.cfg.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="35" column="65" selection-start-line="35" selection-start-column="65" selection-end-line="35" selection-end-column="65" />
+            <state relative-caret-position="577">
+              <caret line="35" column="45" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Hibernate/src/main/java/com/hibernate/Demo4/HibernateDemo04.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1023">
+              <caret line="39" column="29" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Hibernate/src/main/java/com/hibernate/Demo02/HibernateDemo02.java">
+        <entry file="file://$PROJECT_DIR$/Hibernate/src/main/resources/CstLinkman.hbm.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="43" column="58" selection-start-line="43" selection-start-column="58" selection-end-line="43" selection-end-column="58" />
+            <state relative-caret-position="592">
+              <caret line="16" column="60" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Hibernate/src/main/java/com/hibernate/mapping/CstLinkman.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="139" column="18" selection-start-line="139" selection-start-column="18" selection-end-line="139" selection-end-column="18" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#0#35#1" expanded="true" />
-                <element signature="e#0#13#1" expanded="true" />
+                <element signature="e#2239#2240#0" expanded="true" />
+                <element signature="e#2270#2271#0" expanded="true" />
+                <element signature="e#2320#2321#0" expanded="true" />
+                <element signature="e#2360#2361#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -122,8 +130,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Hibernate/src/main/java/com/hibernate/Demo03/HibernateDemo03.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="577">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="273">
+              <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#0#21#0" expanded="true" />
@@ -132,47 +140,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MYSTORE/src/main/java/cn/store/demo/utils/MailUtils.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Hibernate/src/main/java/com/hibernate/mapping/Customer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="25" column="63" lean-forward="true" selection-start-line="25" selection-start-column="63" selection-end-line="25" selection-end-column="63" />
+            <state relative-caret-position="296">
+              <caret line="94" column="47" selection-start-line="94" selection-start-column="47" selection-end-line="94" selection-end-column="47" />
               <folding>
-                <element signature="e#1022#1242#0" expanded="true" />
-                <element signature="e#1241#1242#0" expanded="true" />
+                <element signature="e#2003#2004#0" expanded="true" />
+                <element signature="e#2070#2071#0" expanded="true" />
+                <element signature="e#2120#2121#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MYSTORE/src/main/resources/mail.properties">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MYSTORE/src/main/resources/c3p0-config.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://f1fd8262-5501-4a59-8ce9-0995a351256d/schema/Hibernate/table/cst_customer">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true">
-                <filter text="" />
-              </filtering>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://f1fd8262-5501-4a59-8ce9-0995a351256d/schema/Hibernate/table/cst_linkman">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true">
-                <filter text="" />
-              </filtering>
+        <entry file="file://$PROJECT_DIR$/Hibernate/src/main/resources/Customer.hbm.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="577">
+              <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -212,6 +198,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Hibernate/src/main/resources/Customer.hbm.xml" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Hibernate/src/main/resources/CstLinkman.hbm.xml" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MYSTORE/src/main/webapp/css/Style1.css" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BaseServlet/src/main/webapp/index.jsp" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MYSTORE/src/main/webapp/admin/product/add.jsp" root0="SKIP_INSPECTION" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
@@ -219,9 +207,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/MYSTORE/src/main/java/cn/store/demo/web/servlet/OrderServlet.java" />
-        <option value="$PROJECT_DIR$/MYSTORE/src/main/java/cn/store/demo/web/filter/priviledgeFilter.java" />
-        <option value="$PROJECT_DIR$/MYSTORE/src/main/webapp/admin/home.jsp" />
         <option value="$PROJECT_DIR$/MYSTORE/src/main/webapp/admin/bottom.jsp" />
         <option value="$PROJECT_DIR$/MYSTORE/src/main/webapp/admin/index.jsp" />
         <option value="$PROJECT_DIR$/MYSTORE/src/main/webapp/admin/welcome.jsp" />
@@ -255,21 +240,24 @@
         <option value="$PROJECT_DIR$/Hibernate/src/main/java/com/hibernate/demo/CstCustomer.java" />
         <option value="$PROJECT_DIR$/Hibernate/src/main/java/com/hibernate/demo/Customer.java" />
         <option value="$PROJECT_DIR$/Hibernate/pom.xml" />
-        <option value="$PROJECT_DIR$/Hibernate/src/main/java/com/hibernate/mapping/Customer.java" />
         <option value="$PROJECT_DIR$/Hibernate/src/main/java/com/hibernate/Test01/HibernateDemo01.java" />
         <option value="$PROJECT_DIR$/Hibernate/src/main/java/com/hibernate/Demo01/mapping/Test01/HibernateDemo01.java" />
         <option value="$PROJECT_DIR$/Hibernate/src/main/java/com/hibernate/Demo01/Test01/HibernateDemo01.java" />
-        <option value="$PROJECT_DIR$/Hibernate/src/main/resources/Customer.hbm.xml" />
         <option value="$PROJECT_DIR$/Hibernate/src/main/java/com/hibernate/utils/HibernateUtils.java" />
         <option value="$PROJECT_DIR$/Hibernate/src/main/java/com/hibernate/Demo01/mapping/Customer.java" />
         <option value="$PROJECT_DIR$/Hibernate/src/main/java/com/hibernate/Demo02/HibernateDemo02.java" />
         <option value="$PROJECT_DIR$/Hibernate/src/main/java/com/hibernate/Demo01/HibernateDemo01.java" />
-        <option value="$PROJECT_DIR$/Hibernate/src/main/resources/hibernate.cfg.xml" />
         <option value="f1fd8262-5501-4a59-8ce9-0995a351256d/schema/Hibernate/table/cst_customer.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
-        <option value="$PROJECT_DIR$/Hibernate/src/main/java/com/hibernate/Demo03/HibernateDemo03.java" />
-        <option value="$PROJECT_DIR$/Hibernate/src/main/java/com/hibernate/mapping/CstLinkmanEntity.java" />
         <option value="$PROJECT_DIR$/MYSTORE/src/main/java/cn/store/demo/utils/MailUtils.java" />
+        <option value="$PROJECT_DIR$/Hibernate/src/main/java/com/hibernate/mapping/CstLinkmanEntity.java" />
+        <option value="$PROJECT_DIR$/Hibernate/src/main/resources/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/Hibernate/src/main/resources/CstLinkman.hbm.xml" />
+        <option value="$PROJECT_DIR$/Hibernate/src/main/java/com/hibernate/mapping/Customer.java" />
+        <option value="$PROJECT_DIR$/Hibernate/src/main/resources/Customer.hbm.xml" />
+        <option value="$PROJECT_DIR$/Hibernate/src/main/java/com/hibernate/Demo03/HibernateDemo03.java" />
+        <option value="$PROJECT_DIR$/Hibernate/src/main/java/com/hibernate/mapping/CstLinkman.java" />
+        <option value="$PROJECT_DIR$/Hibernate/src/main/java/com/hibernate/Demo4/HibernateDemo04.java" />
       </list>
     </option>
   </component>
@@ -336,61 +324,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Course" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="TestDemoSpace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MYSTORE" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TestDemoSpace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MYSTORE" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TestDemoSpace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MYSTORE" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TestDemoSpace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MYSTORE" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TestDemoSpace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MYSTORE" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TestDemoSpace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MYSTORE" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TestDemoSpace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MYSTORE" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -428,6 +361,79 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="TestDemoSpace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hibernate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestDemoSpace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestDemoSpace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestDemoSpace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestDemoSpace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestDemoSpace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="Demo03" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestDemoSpace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="Demo4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestDemoSpace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="mapping" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestDemoSpace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Course" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -440,7 +446,7 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="XML" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Hibernate/src/main/java/com/hibernate/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Hibernate/src/main/resources/Customer.hbm.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -450,14 +456,12 @@
     <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="cn.store.demo.service.impl" />
-      <recent name="com.login.utli" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="cn.store.demo.dao.impl" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="H:\Web\TestDemoSpace\Hibernate\src\main\resources" />
-      <recent name="H:\Web\TestDemoSpace\Hibernate\src\main\java\com\hibernate\demo" />
-      <recent name="H:\Web\TestDemoSpace\MYSTORE\src\main" />
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="com.hibernate.mapping" />
+      <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="H:\Web\TestDemoSpace\Hibernate\src\main\java\com\hibernate\lib" />
@@ -466,12 +470,15 @@
       <recent name="H:\Web\TestDemoSpace\MYSTORE\src\main\webapp\jsp" />
       <recent name="H:\Web\TestDemoSpace\MYSTORE\src\main\java\cn\store\demo\utils" />
     </key>
-    <key name="ImportMappingsDialog.RecentPackages">
-      <recent name="com.hibernate.mapping" />
-      <recent name="" />
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hibernate.Demo4" />
+      <recent name="cn.store.demo.service.impl" />
+      <recent name="com.login.utli" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="cn.store.demo.dao.impl" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\Web\TestDemoSpace\Hibernate\src\main\resources" />
+      <recent name="H:\Web\TestDemoSpace\Hibernate\src\main\java\com\hibernate\demo" />
+      <recent name="H:\Web\TestDemoSpace\MYSTORE\src\main" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -492,7 +499,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MailUtils">
+  <component name="RunManager" selected="JUnit.HibernateDemo04.test01">
     <configuration name="MailUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.store.demo.utils.MailUtils" />
       <module name="MYSTORE" />
@@ -502,22 +509,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HibernateDemo02.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Hibernate" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hibernate.Demo02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.hibernate.Demo02" />
-      <option name="MAIN_CLASS_NAME" value="com.hibernate.Demo02.HibernateDemo02" />
-      <option name="METHOD_NAME" value="test02" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -564,6 +555,22 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.hibernate.Demo03" />
       <option name="MAIN_CLASS_NAME" value="com.hibernate.Demo03.HibernateDemo03" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HibernateDemo04.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Hibernate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hibernate.Demo4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hibernate.Demo4" />
+      <option name="MAIN_CLASS_NAME" value="com.hibernate.Demo4.HibernateDemo04" />
       <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -985,7 +992,6 @@
     </configuration>
     <list>
       <item itemvalue="Application.MailUtils" />
-      <item itemvalue="JUnit.HibernateDemo02.test02" />
       <item itemvalue="JUnit.HibernateDemo02.test03" />
       <item itemvalue="JUnit.HibernateDemo02.test04" />
       <item itemvalue="JUnit.HibernateDemo03.test01" />
@@ -994,14 +1000,15 @@
       <item itemvalue="Tomcat Server.Tomcat" />
       <item itemvalue="Tomcat Server.FilterTomcat" />
       <item itemvalue="Tomcat Server.Login" />
+      <item itemvalue="JUnit.HibernateDemo04.test01" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MailUtils" />
+        <item itemvalue="JUnit.HibernateDemo04.test01" />
         <item itemvalue="JUnit.HibernateDemo03.test01" />
+        <item itemvalue="Application.MailUtils" />
         <item itemvalue="JUnit.HibernateDemo02.test03" />
         <item itemvalue="JUnit.HibernateDemo02.test04" />
-        <item itemvalue="JUnit.HibernateDemo02.test02" />
       </list>
     </recent_temporary>
   </component>
@@ -1062,6 +1069,8 @@
       <workItem from="1564829649186" duration="4871000" />
       <workItem from="1564838572228" duration="432000" />
       <workItem from="1564877472759" duration="9433000" />
+      <workItem from="1564929784992" duration="56000" />
+      <workItem from="1564967415302" duration="6681000" />
     </task>
     <task id="LOCAL-00001" summary="学习事件监听器">
       <created>1563028528251</created>
@@ -1392,16 +1401,17 @@
       <option name="project" value="LOCAL" />
       <updated>1564883398941</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="update">
+      <created>1564929828629</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1564929828629</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HibernateDemo02_test03 - 2019.08.04 at 09h 13m 25s.xml">
-      <configuration name="HibernateDemo02.test03" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HibernateDemo02_test03 - 2019.08.04 at 09h 14m 01s.xml">
-      <configuration name="HibernateDemo02.test03" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="HibernateDemo02_test04 - 2019.08.04 at 09h 23m 48s.xml">
       <configuration name="HibernateDemo02.test04" configurationId="JUnit" />
     </history-entry>
@@ -1426,9 +1436,15 @@
     <history-entry file="HibernateDemo03_test01 - 2019.08.04 at 11h 14m 58s.xml">
       <configuration name="HibernateDemo03.test01" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="HibernateDemo03_test01 - 2019.08.05 at 10h 16m 01s.xml">
+      <configuration name="HibernateDemo03.test01" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HibernateDemo03_test01 - 2019.08.05 at 10h 17m 23s.xml">
+      <configuration name="HibernateDemo03.test01" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="319252000" />
+    <option name="totallyTimeSpent" value="325989000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1443,8 +1459,8 @@
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" x="789" y="61" width="341" height="928" id="Project" order="0" sideWeight="0.75641024" visible="true" weight="0.16364606" />
-      <window_info id="Persistence" order="1" sideWeight="0.24358974" side_tool="true" visible="true" weight="0.16364606" />
+      <window_info active="true" content_ui="combo" x="789" y="61" width="341" height="928" id="Project" order="0" sideWeight="0.75427353" visible="true" weight="0.21215352" />
+      <window_info id="Persistence" order="1" sideWeight="0.2457265" side_tool="true" weight="0.16364606" />
       <window_info id="Structure" order="2" sideWeight="0.503962" side_tool="true" weight="0.16364606" />
       <window_info id="Designer" order="3" />
       <window_info id="Image Layers" order="4" />
@@ -1455,7 +1471,7 @@
       <window_info id="Learn" order="9" weight="0.32995737" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32799146" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.10683761" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.20619658" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.45833334" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1592,45 +1608,6 @@
     <SUITE FILE_PATH="coverage/TestDemoSpace$MyStore.ic" NAME="MyStore Coverage Results" MODIFIED="1564373269227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MYSTORE/src/main/java/cn/store/demo/dao/ProductDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2146">
-          <caret line="62" column="14" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MYSTORE/src/main/java/cn/store/demo/dao/impl/ProductDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4070">
-          <caret line="120" column="15" selection-start-line="120" selection-start-column="15" selection-end-line="120" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MYSTORE/src/main/java/cn/store/demo/domain/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1184">
-          <caret line="44" column="16" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
-          <folding>
-            <element signature="e#735#736#0" expanded="true" />
-            <element signature="e#762#763#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BaseServlet/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="33" column="17" selection-start-line="28" selection-start-column="4" selection-end-line="33" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/javax/enterprise/cdi-api/1.1/cdi-api-1.1.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="143" column="24" selection-start-line="143" selection-start-column="24" selection-end-line="143" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.2.6.Final/hibernate-core-5.2.6.Final.pom">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
@@ -1934,52 +1911,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Hibernate/src/main/java/com/hibernate/mapping/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="20" column="27" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hibernate/src/main/resources/Customer.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="6" column="58" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hibernate/src/main/java/com/hibernate/Demo02/HibernateDemo02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="43" column="58" selection-start-line="43" selection-start-column="58" selection-end-line="43" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#0#35#1" expanded="true" />
-            <element signature="e#0#13#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="das://f1fd8262-5501-4a59-8ce9-0995a351256d/schema/Hibernate/table/cst_customer.sql">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Hibernate/src/main/java/com/hibernate/Demo01/HibernateDemo01.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
+        <state relative-caret-position="185">
           <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Hibernate/src/main/resources/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="35" column="65" selection-start-line="35" selection-start-column="65" selection-end-line="35" selection-end-column="65" />
+    <entry file="uml://DATABASE/f1fd8262-5501-4a59-8ce9-0995a351256d.TABLE:Hibernate.cst_linkman">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>f1fd8262-5501-4a59-8ce9-0995a351256d.TABLE:Hibernate.cst_linkman</OriginalElement>
+          <nodes>
+            <node x="" y="">f1fd8262-5501-4a59-8ce9-0995a351256d.TABLE:Hibernate.cst_customer</node>
+            <node x="" y="">f1fd8262-5501-4a59-8ce9-0995a351256d.TABLE:Hibernate.cst_linkman</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="90.0" y="257.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Columns</Category>
+            <Category>Key columns</Category>
+          </Categories>
         </state>
       </provider>
     </entry>
-    <entry file="das://f1fd8262-5501-4a59-8ce9-0995a351256d/schema/Hibernate/table/cst_customer.sql">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="uml://DATABASE/f1fd8262-5501-4a59-8ce9-0995a351256d.TABLE:Hibernate.cst_customer">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>f1fd8262-5501-4a59-8ce9-0995a351256d.TABLE:Hibernate.cst_customer</OriginalElement>
+          <nodes>
+            <node x="" y="">f1fd8262-5501-4a59-8ce9-0995a351256d.TABLE:Hibernate.cst_customer</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="90.0" y="99.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+        </state>
+      </provider>
     </entry>
     <entry file="das://f1fd8262-5501-4a59-8ce9-0995a351256d/schema/Hibernate/table/cst_customer">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
@@ -1999,17 +1981,92 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/MYSTORE/src/main/resources/c3p0-config.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MYSTORE/src/main/resources/mail.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MYSTORE/src/main/java/cn/store/demo/utils/MailUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="25" column="63" selection-start-line="25" selection-start-column="63" selection-end-line="25" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hibernate/src/main/java/com/hibernate/Demo02/HibernateDemo02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="43" column="58" selection-start-line="43" selection-start-column="58" selection-end-line="43" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Hibernate/src/main/java/com/hibernate/mapping/CstLinkmanEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="130" column="18" selection-start-line="130" selection-start-column="18" selection-end-line="130" selection-end-column="18" />
+        <state relative-caret-position="444">
+          <caret line="109" column="16" lean-forward="true" selection-start-line="109" selection-start-column="16" selection-end-line="109" selection-end-column="16" />
+          <folding>
+            <element signature="e#2245#2246#0" expanded="true" />
+            <element signature="e#2276#2277#0" expanded="true" />
+            <element signature="e#2326#2327#0" expanded="true" />
+            <element signature="e#2366#2367#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hibernate/src/main/java/com/hibernate/mapping/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="94" column="47" selection-start-line="94" selection-start-column="47" selection-end-line="94" selection-end-column="47" />
+          <folding>
+            <element signature="e#2003#2004#0" expanded="true" />
+            <element signature="e#2070#2071#0" expanded="true" />
+            <element signature="e#2120#2121#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hibernate/src/main/resources/Customer.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="577">
+          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hibernate/src/main/resources/CstLinkman.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="16" column="60" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hibernate/src/main/resources/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="577">
+          <caret line="35" column="45" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hibernate/src/main/java/com/hibernate/mapping/CstLinkman.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="139" column="18" selection-start-line="139" selection-start-column="18" selection-end-line="139" selection-end-column="18" />
+          <folding>
+            <element signature="e#2239#2240#0" expanded="true" />
+            <element signature="e#2270#2271#0" expanded="true" />
+            <element signature="e#2320#2321#0" expanded="true" />
+            <element signature="e#2360#2361#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Hibernate/src/main/java/com/hibernate/Demo03/HibernateDemo03.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="577">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="273">
+          <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#0#21#0" expanded="true" />
@@ -2017,20 +2074,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MYSTORE/src/main/resources/mail.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MYSTORE/src/main/resources/c3p0-config.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MYSTORE/src/main/java/cn/store/demo/utils/MailUtils.java">
+    <entry file="file://$PROJECT_DIR$/Hibernate/src/main/java/com/hibernate/Demo4/HibernateDemo04.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="25" column="63" lean-forward="true" selection-start-line="25" selection-start-column="63" selection-end-line="25" selection-end-column="63" />
-          <folding>
-            <element signature="e#1022#1242#0" expanded="true" />
-            <element signature="e#1241#1242#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1023">
+          <caret line="39" column="29" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
         </state>
       </provider>
     </entry>

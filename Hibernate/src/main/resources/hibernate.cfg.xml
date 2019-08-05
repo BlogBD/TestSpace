@@ -33,6 +33,6 @@
 -->
         <!--引入映射文件-->
         <mapping resource="Customer.hbm.xml"/>
-        <mapping class="com.hibernate.mapping.CstLinkmanEntity"/>
+        <mapping resource="CstLinkman.hbm.xml"/>
     </session-factory>
 </hibernate-configuration>

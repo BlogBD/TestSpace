@@ -17,5 +17,11 @@
         <property name="custLevel" column="cust_level"/>
         <property name="custPhone" column="cust_phone"/>
         <property name="custMobile" column="cust_mobile"/>
+        <!--配置一对多的映射-->
+        <set name="cstLinkmanSet">
+            <!--column="lkm_cust_id" 多的一方外键-->
+            <key column="lkm_cust_id"/>
+            <one-to-many class="com.hibernate.mapping.CstLinkman"/>
+        </set>
     </class>
 </hibernate-mapping>
