@@ -14,6 +14,7 @@ create table cst_customer
 
 */
 
+import java.util.HashSet;
 import java.util.Set;
 
 /**
@@ -27,7 +28,7 @@ public class Customer {
     private String custLevel;
     private String custPhone;
     private String custMobile;
-    private Set<CstLinkman> cstLinkmanSet;
+    private Set<CstLinkman> cstLinkmanSet =new HashSet<>();
 
     public long getCustId() {
         return custId;

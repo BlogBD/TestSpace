@@ -32,6 +32,9 @@ public class HibernateDemo04 {
     cstLinkman01.setCustomer(customer01);
     cstLinkman02.setCustomer(customer01);
     cstLinkman03.setCustomer(customer02);
+    customer01.getCstLinkmanSet().add(cstLinkman01);
+    customer01.getCstLinkmanSet().add(cstLinkman02);
+    customer02.getCstLinkmanSet().add(cstLinkman03);
     //保存关系
     session.save(cstLinkman01);
     session.save(cstLinkman02);
@@ -39,5 +42,31 @@ public class HibernateDemo04 {
     session.save(customer01);
     session.save(customer02);
     transaction.commit();
+  }
+
+
+  @Test
+  /**
+   *  级联保存或更新操作：
+   *  * 保存客户级联联系人，操作的主体是客户对象，需要在Customer.hbm.xml中进行配置
+   *  * <set name="linkMans" cascade="save-update">
+   */
+  public void demo3(){
+    Session session = HibernateUtils.getCurrentSession();
+    Transaction tx = session.beginTransaction();
+
+    Customer customer = new Customer();
+    customer.setCustName("赵洪");
+
+    //联系人
+    CstLinkman cstLinkman01 = new CstLinkman();
+    cstLinkman01.setLkmName("one");
+
+    customer.getCstLinkmanSet().add(cstLinkman01);
+    cstLinkman01.setCustomer(customer);
+
+    session.save(customer);
+
+    tx.commit();
   }
 }
