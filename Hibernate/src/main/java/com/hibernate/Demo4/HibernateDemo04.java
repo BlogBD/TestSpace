@@ -61,12 +61,9 @@ public class HibernateDemo04 {
     //联系人
     CstLinkman cstLinkman01 = new CstLinkman();
     cstLinkman01.setLkmName("one");
-
     customer.getCstLinkmanSet().add(cstLinkman01);
     cstLinkman01.setCustomer(customer);
-
     session.save(customer);
-
     tx.commit();
   }
 }
