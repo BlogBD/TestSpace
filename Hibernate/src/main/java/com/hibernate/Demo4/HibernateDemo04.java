@@ -54,10 +54,8 @@ public class HibernateDemo04 {
   public void demo3(){
     Session session = HibernateUtils.getCurrentSession();
     Transaction tx = session.beginTransaction();
-
     Customer customer = new Customer();
     customer.setCustName("赵洪");
-
     //联系人
     CstLinkman cstLinkman01 = new CstLinkman();
     cstLinkman01.setLkmName("one");
