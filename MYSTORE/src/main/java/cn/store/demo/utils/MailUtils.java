@@ -40,24 +40,25 @@ public class MailUtils {
 		Session session = Session.getInstance(props, auth);
 
 		// 2.创建一个Message，它相当于是邮件内容
+
 		Message message = new MimeMessage(session);
 
-		//设置发送者
+		//3.设置发送者
 		message.setFrom(new InternetAddress(props.getProperty("sendusername")));
 
-		//设置发送方式与接收者
+		//4.设置发送方式与接收者
 		message.setRecipient(RecipientType.TO, new InternetAddress(email)); 
 
-		//设置邮件主题
+		//5.设置邮件主题
 		message.setSubject("你在耍手机");
 		// message.setText("这是一封激活邮件，请<a href='#'>点击</a>");
 
 		String url="http://localhost:8080/MYSTORE/UserServlet?method=active&code="+emailMsg;
 		String content="<h1>来自购物天堂的激活邮件!激活请点击以下链接!</h1><h3><a href='"+url+"'>"+url+"</a></h3>";
-		//设置邮件内容
+		//6.设置邮件内容
 		message.setContent(content, "text/html;charset=utf-8");
 
-		// 3.创建 Transport用于将邮件发送
+		// 7.创建 Transport用于将邮件发送
 		Transport.send(message);
 	}
 	/*public static void main(String[] args) throws AddressException, MessagingException, IOException {
