@@ -24,6 +24,7 @@
       <module name="ListenerDemo" target="1.8" />
       <module name="MyStore" target="1.8" />
       <module name="MYSTORE" target="1.8" />
+      <module name="SpringDemo" target="1.8" />
       <module name="Store" target="1.8" />
     </bytecodeTargetLevel>
   </component>

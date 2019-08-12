@@ -7,6 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f2bd86d-8c1c-4d7d-b6c6-19d99fab0dbf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/libs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,6 +22,7 @@
     <ignored path="$PROJECT_DIR$/MYSTORE/target/" />
     <ignored path="$PROJECT_DIR$/BaseServlet/target/" />
     <ignored path="$PROJECT_DIR$/Hibernate/target/" />
+    <ignored path="$PROJECT_DIR$/SpringDemo/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,110 +80,7 @@
     <favorites_list name="TestDemoSpace" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Hibernate/src/main/resources/hibernate.cfg.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="30" column="52" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Hibernate/src/main/java/com/hibernate/Demo4/HibernateDemo04.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="516">
-              <caret line="67" column="3" selection-start-line="67" selection-start-column="3" selection-end-line="67" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Hibernate/src/main/resources/CstLinkman.hbm.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
-              <caret line="14" column="54" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Hibernate/src/main/java/com/hibernate/mapping/CstLinkman.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="139" column="18" selection-start-line="139" selection-start-column="18" selection-end-line="139" selection-end-column="18" />
-              <folding>
-                <element signature="e#2239#2240#0" expanded="true" />
-                <element signature="e#2270#2271#0" expanded="true" />
-                <element signature="e#2320#2321#0" expanded="true" />
-                <element signature="e#2360#2361#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Hibernate/src/main/java/com/hibernate/Demo03/HibernateDemo03.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#0#21#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Hibernate/src/main/java/com/hibernate/mapping/Customer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="30" column="59" selection-start-line="30" selection-start-column="59" selection-end-line="30" selection-end-column="59" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1967#1968#0" expanded="true" />
-                <element signature="e#2003#2004#0" expanded="true" />
-                <element signature="e#2070#2071#0" expanded="true" />
-                <element signature="e#2120#2121#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Hibernate/src/main/resources/Customer.hbm.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="20" column="54" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://f1fd8262-5501-4a59-8ce9-0995a351256d/schema/Hibernate/table/cst_linkman">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true">
-                <filter text="" />
-              </filtering>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://f1fd8262-5501-4a59-8ce9-0995a351256d/schema/Hibernate/table/cst_customer">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true">
-                <filter text="" />
-              </filtering>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -224,7 +124,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/MYSTORE/src/main/webapp/admin/bottom.jsp" />
         <option value="$PROJECT_DIR$/MYSTORE/src/main/webapp/admin/index.jsp" />
         <option value="$PROJECT_DIR$/MYSTORE/src/main/webapp/admin/welcome.jsp" />
         <option value="$PROJECT_DIR$/MYSTORE/src/main/webapp/admin/user/edit.jsp" />
@@ -275,6 +174,7 @@
         <option value="$PROJECT_DIR$/Hibernate/src/main/java/com/hibernate/mapping/Customer.java" />
         <option value="$PROJECT_DIR$/Hibernate/src/main/resources/Customer.hbm.xml" />
         <option value="$PROJECT_DIR$/Hibernate/src/main/java/com/hibernate/Demo4/HibernateDemo04.java" />
+        <option value="$PROJECT_DIR$/SpringDemo/pom.xml" />
       </list>
     </option>
   </component>
@@ -310,12 +210,18 @@
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="MYSTORE Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="SpringDemo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="MYSTORE Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="SpringDemo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="SpringDemo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.springframework:spring-core:5.1.5.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
         </path>
       </expand>
       <select />
@@ -325,8 +231,8 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="230" />
-    <option name="y" value="23" />
+    <option name="x" value="180" />
+    <option name="y" value="29" />
     <option name="width" value="1578" />
     <option name="height" value="987" />
   </component>
@@ -341,6 +247,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -378,72 +285,38 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Course" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="TestDemoSpace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="AutoLogin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TestDemoSpace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="AutoLogin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TestDemoSpace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="Filter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TestDemoSpace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="Filter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TestDemoSpace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="Filter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TestDemoSpace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="Demo03" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TestDemoSpace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="Demo4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TestDemoSpace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="mapping" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Course" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -456,30 +329,16 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="XML" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Hibernate/src/main/resources/Customer.hbm.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/SpringDemo/src" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="cn.store.demo.dao.impl" />
-    </key>
-    <key name="ImportMappingsDialog.RecentPackages">
-      <recent name="com.hibernate.mapping" />
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="H:\Web\TestDemoSpace\Hibernate\src\main\java\com\hibernate\lib" />
-      <recent name="H:\Web\TestDemoSpace\Hibernate\src\main\java\com\hibernate\Test01" />
-      <recent name="H:\Web\TestDemoSpace\MYSTORE\src\main\java\cn\store\demo\domain" />
-      <recent name="H:\Web\TestDemoSpace\MYSTORE\src\main\webapp\jsp" />
-      <recent name="H:\Web\TestDemoSpace\MYSTORE\src\main\java\cn\store\demo\utils" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.hibernate.Demo4" />
       <recent name="cn.store.demo.service.impl" />
@@ -489,6 +348,20 @@
       <recent name="H:\Web\TestDemoSpace\Hibernate\src\main\resources" />
       <recent name="H:\Web\TestDemoSpace\Hibernate\src\main\java\com\hibernate\demo" />
       <recent name="H:\Web\TestDemoSpace\MYSTORE\src\main" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\Web\TestDemoSpace\SpringDemo\src" />
+      <recent name="H:\Web\TestDemoSpace\Hibernate\src\main\java\com\hibernate\lib" />
+      <recent name="H:\Web\TestDemoSpace\Hibernate\src\main\java\com\hibernate\Test01" />
+      <recent name="H:\Web\TestDemoSpace\MYSTORE\src\main\java\cn\store\demo\domain" />
+      <recent name="H:\Web\TestDemoSpace\MYSTORE\src\main\webapp\jsp" />
+    </key>
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="com.hibernate.mapping" />
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="cn.store.demo.dao.impl" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -1081,13 +954,10 @@
       <workItem from="1564877472759" duration="9433000" />
       <workItem from="1564929784992" duration="56000" />
       <workItem from="1564967415302" duration="11503000" />
-    </task>
-    <task id="LOCAL-00003" summary="update">
-      <created>1563115926049</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1563115926049</updated>
+      <workItem from="1565002645839" duration="954000" />
+      <workItem from="1565048398460" duration="1709000" />
+      <workItem from="1565050940940" duration="297000" />
+      <workItem from="1565314075791" duration="27000" />
     </task>
     <task id="LOCAL-00004" summary="update">
       <created>1563118566129</created>
@@ -1425,7 +1295,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564980540510</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="update">
+      <created>1565002689931</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1565002689932</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1461,7 +1338,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="330811000" />
+    <option name="totallyTimeSpent" value="333798000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1473,18 +1350,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="230" y="23" width="1578" height="987" extended-state="0" />
-    <editor active="true" />
+    <frame x="180" y="29" width="1578" height="987" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" x="789" y="61" width="341" height="928" id="Project" order="0" sideWeight="0.75427353" visible="true" weight="0.25428194" />
-      <window_info id="Persistence" order="1" sideWeight="0.2457265" side_tool="true" weight="0.16364606" />
-      <window_info id="Structure" order="2" sideWeight="0.503962" side_tool="true" weight="0.16364606" />
+      <window_info active="true" content_ui="combo" x="789" y="61" width="341" height="928" id="Project" order="0" sideWeight="0.7533253" visible="true" weight="0.2602108" />
+      <window_info id="Persistence" order="1" sideWeight="0.24667473" side_tool="true" weight="0.2602108" />
+      <window_info id="Structure" order="2" sideWeight="0.24667473" side_tool="true" weight="0.2602108" />
       <window_info id="Designer" order="3" />
       <window_info id="Image Layers" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="UI Designer" order="6" />
-      <window_info id="Favorites" order="7" sideWeight="0.503962" side_tool="true" weight="0.16364606" />
-      <window_info id="Web" order="8" sideWeight="0.503962" side_tool="true" weight="0.16364606" />
+      <window_info id="Favorites" order="7" sideWeight="0.24667473" side_tool="true" weight="0.2602108" />
+      <window_info id="Web" order="8" sideWeight="0.24667473" side_tool="true" weight="0.2602108" />
       <window_info id="Learn" order="9" weight="0.32995737" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32799146" />
@@ -1500,10 +1376,11 @@
       <window_info anchor="bottom" id="Application Servers" order="11" weight="0.32478634" />
       <window_info anchor="bottom" id="Database Console" order="12" weight="0.32905984" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="13" />
+      <window_info anchor="bottom" id="Spring" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.24466951" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.24440053" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
@@ -1625,27 +1502,6 @@
     <SUITE FILE_PATH="coverage/TestDemoSpace$MyStore.ic" NAME="MyStore Coverage Results" MODIFIED="1564373269227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.2.6.Final/hibernate-core-5.2.6.Final.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="60" column="17" lean-forward="true" selection-start-line="60" selection-end-line="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f1fd8262-5501-4a59-8ce9-0995a351256d/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hibernate/src/main/java/com/hibernate/demo/CstCustomer.java" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.2.6.Final/hibernate-core-5.2.6.Final.jar!/org/hibernate/hibernate-mapping-3.0.dtd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="11" column="61" lean-forward="true" selection-start-line="9" selection-end-line="11" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.2.6.Final/hibernate-core-5.2.6.Final.jar!/org/hibernate/hibernate-configuration-3.0.dtd">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="407">
@@ -1949,12 +1805,13 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="90.0" y="257.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="90.0" y="258.0" />
           <SelectedNodes />
           <Categories>
-            <Category>Columns</Category>
             <Category>Key columns</Category>
+            <Category>Columns</Category>
           </Categories>
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
@@ -1974,6 +1831,7 @@
             <Category>Key columns</Category>
             <Category>Columns</Category>
           </Categories>
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
@@ -2000,19 +1858,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Hibernate/src/main/java/com/hibernate/mapping/CstLinkmanEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="109" column="16" lean-forward="true" selection-start-line="109" selection-start-column="16" selection-end-line="109" selection-end-column="16" />
-          <folding>
-            <element signature="e#2245#2246#0" expanded="true" />
-            <element signature="e#2276#2277#0" expanded="true" />
-            <element signature="e#2326#2327#0" expanded="true" />
-            <element signature="e#2366#2367#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Hibernate/src/main/java/com/hibernate/mapping/CstLinkmanEntity.java" />
     <entry file="das://f1fd8262-5501-4a59-8ce9-0995a351256d/schema/Hibernate/table/cst_customer.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="37">
@@ -2020,33 +1866,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Hibernate/src/main/java/com/hibernate/Demo03/HibernateDemo03.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hibernate/src/main/java/com/hibernate/mapping/CstLinkman.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="139" column="18" selection-start-line="139" selection-start-column="18" selection-end-line="139" selection-end-column="18" />
-          <folding>
-            <element signature="e#2239#2240#0" expanded="true" />
-            <element signature="e#2270#2271#0" expanded="true" />
-            <element signature="e#2320#2321#0" expanded="true" />
-            <element signature="e#2360#2361#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Hibernate/src/main/resources/hibernate.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
+        <state relative-caret-position="1110">
           <caret line="30" column="52" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
         </state>
       </provider>
@@ -2058,23 +1880,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Hibernate/src/main/java/com/hibernate/mapping/Customer.java">
+    <entry file="file://$PROJECT_DIR$/Hibernate/src/main/java/com/hibernate/mapping/CstLinkman.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="30" column="59" selection-start-line="30" selection-start-column="59" selection-end-line="30" selection-end-column="59" />
+        <state relative-caret-position="3626">
+          <caret line="139" column="18" selection-start-line="139" selection-start-column="18" selection-end-line="139" selection-end-column="18" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1967#1968#0" expanded="true" />
-            <element signature="e#2003#2004#0" expanded="true" />
-            <element signature="e#2070#2071#0" expanded="true" />
-            <element signature="e#2120#2121#0" expanded="true" />
+            <element signature="e#2239#2240#0" expanded="true" />
+            <element signature="e#2270#2271#0" expanded="true" />
+            <element signature="e#2320#2321#0" expanded="true" />
+            <element signature="e#2360#2361#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Hibernate/src/main/resources/Customer.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
+        <state relative-caret-position="740">
           <caret line="20" column="54" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
         </state>
       </provider>
@@ -2099,8 +1920,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Hibernate/src/main/java/com/hibernate/Demo4/HibernateDemo04.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="67" column="3" selection-start-line="67" selection-start-column="3" selection-end-line="67" selection-end-column="3" />
+        <state relative-caret-position="98">
+          <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/SpringDemo/src/libs/spring-core-4.3.9.RELEASE.jar!/META-INF/license.txt" />
+    <entry file="jar://$PROJECT_DIR$/SpringDemo/src/libs/spring-core-4.3.9.RELEASE.jar!/META-INF/notice.txt" />
+    <entry file="jar://$PROJECT_DIR$/SpringDemo/src/libs/spring-core-4.3.9.RELEASE.jar!/META-INF/MANIFEST.MF" />
+    <entry file="file://$PROJECT_DIR$/SpringDemo/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/Hibernate/src/main/java/com/hibernate/mapping/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="30" column="59" selection-start-line="30" selection-start-column="59" selection-end-line="30" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/com.spring.demo:SpringDemo:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.spring.demo:SpringDemo:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="" y="">com.spring.demo:SpringDemo:1.0-SNAPSHOT</node>
+            <node x="" y="">org.springframework:spring-core:jar:5.1.5.RELEASE</node>
+            <node x="" y="">org.springframework:spring-core:jar:5.1.5.RELEASE/org.springframework:spring-jcl:jar:5.1.5.RELEASE</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="154.0" y="11.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hibernate/src/main/java/com/hibernate/Demo03/HibernateDemo03.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2158,12 +2024,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Hibernate</last-edited>
+          <last-edited>AutoLogin</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
